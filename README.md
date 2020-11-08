@@ -56,17 +56,17 @@
     - The information is structured mostly in nested lists and hub and spoke design for bigger screens.
 - ### Wireframes
   - Landing Page:
-    - [mobile](#)
-    - [tablet](#)
-    - [desktop](#)
+    - [mobile](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/index-mobile.png)
+    - [tablet](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/index-tablet.png)
+    - [desktop](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/index-desktop.png)
   - House Details Page:
-    - [mobile](#)
-    - [tablet](#)
-    - [desktop](#)
+    - [mobile](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/house-mobile.png)
+    - [tablet](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/house-tablet.png)
+    - [desktop](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/house-desktop.png)
   - CTA Modal Form:
-    - [mobile](#)
-    - [tablet](#)
-    - [desktop](#)
+    - [mobile](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/form-mobile.png)
+    - [tablet](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/form-tablet.png)
+    - [desktop](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/form-desktop.png)
 - ### Design Choices
   - Colours
   - Typography
