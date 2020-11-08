@@ -137,7 +137,7 @@ _[to be completed]_
 - ### Content
     _[to be completed]_
 - ### Media
-    _[to be completed]_
+  - [ConvertIco](https://convertico.com/) for converting logo from .png to .ico
 - ### Code
     _[to be completed]_
 
