@@ -21,9 +21,17 @@ _[to be completed]_
 ## UX
 
 - ### Business Goals
-  - _[to be completed]_
+  - The main goal of any business is to sell the product. In this case the product is the 3 presented houses built throughout the estate.
+  - Target and reach users that are members of a family with children.
+  - Have a list of interested people by making viewing appointments.
+  - Promote and present the 3 house models and their features/specifications.
+  - Promote and present the estate's and area's features and specifications.
 - ### Users Goals
-  - _[to be completed]_
+  - Have a good lifestyle by living in a safe and quiet place along with their families.
+  - Have access to essential services and amenities such as cleaning, childcare, schools, transportation, shopping and businesses.
+  - Have options and details about the houses.
+  - Have details and specifications about the place and location.
+  - View the desired house and place in person.
 - ### User Stories
   - #### As a user I need:
     - _[to be completed]_
