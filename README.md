@@ -5,9 +5,10 @@
   - [UX](#ux)
     - [Business Goals](#busines-goals)
     - [User Goals](#user-goals)
-    - [User Stories](#user-stories)
-    - [Design Choices](#design-choices)
+    - [User Scenarios](#user-scenarios)
+    - [Structure](#structure)
     - [Wireframes](#wireframes)
+    - [Design Choices](#design-choices)
   - [Features](#features)
   - [Technologies used](#technologies-used)
   - [Testing](#testing)
@@ -32,15 +33,14 @@ _[to be completed]_
   - Have options and details about the houses.
   - Have details and specifications about the place and location.
   - View the desired house and place in person.
-- ### User Stories
+- ### User Scenarios
   - #### As a user I need:
     - _[to be completed]_
   - #### As a parent I need:
     - _[to be completed]_
   - #### As a worker I need:
     - _[to be completed]_
-- ### Design Choices
-  _[to be completed]_
+- ### Structure
 - ### Wireframes
   - Landing Page:
     - [mobile](#)
@@ -54,6 +54,8 @@ _[to be completed]_
     - [mobile](#)
     - [tablet](#)
     - [desktop](#)
+- ### Design Choices
+  _[to be completed]_
 
 ## Features
 Website's features are presented in an importance order.
