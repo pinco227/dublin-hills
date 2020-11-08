@@ -1,4 +1,5 @@
 # Dublin Hills
+This is the presentation website for a new Housing Development that offers a good lifestyle support for families. The main goal is to get the interested user to book a viewing.
 
 ## Table of Contents
   - [UX](#ux)
