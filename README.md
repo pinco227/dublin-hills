@@ -1,10 +1,9 @@
 # Dublin Hills
 
 ## Table of Contents
-  - [Introduction](#introduction)
   - [UX](#ux)
-    - [Business Goals](#busines-goals)
-    - [User Goals](#user-goals)
+    - [Business Goals](#business-goals)
+    - [User Goals](#users-goals)
     - [User Scenarios](#user-scenarios)
     - [Structure](#structure)
     - [Wireframes](#wireframes)
@@ -15,9 +14,6 @@
   - [Deployment](#deployment)
   - [Credits](#credits)
   - [Aknowledgements](#aknowledgements)
-
-## Introduction
-_[to be completed]_
 
 ## UX
 
