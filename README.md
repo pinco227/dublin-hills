@@ -56,7 +56,32 @@ _[to be completed]_
     - [desktop](#)
 
 ## Features
-_[to be completed]_
+Website's features are presented in an importance order.
+- ### Navigation bar
+    Allows users to navigate through the page. As the website is mainly a single landing page, the navigation will be visible all the time.
+- ### Full width Call To Action (CTA)
+    Allows users to understand the page goal in the first look. Attracts users by giving on-point bite-size information. Allow business to acommplish the main goal by providing users with the viewing posibility.
+- ### Book a Viewing Modal Form
+    Allows interested users to book a viewing by having them fill the provided form.
+- ### Housing Estate's features section
+    Presents users the site's main offered amenities ordered by importance.
+- ### A list of the 3 house models
+    A brief presentation of the 3 houses with main photo, few imporant features and a button for more details.
+- ### Details page for each house
+    Interested users can find additional information for each of the 3 presented houses. This pages have the following features ordered by importance:
+  - #### Main photo and attractive description
+  - #### A gallery of house plans
+  - #### Full technical specification list
+  - #### A gallery of photos
+  - #### A button to go back to the "Homes" section of the landing page
+- ### Estate's layout and bird's eye view
+    A photo representing the layout of the site and a "see from above" photo of the finished product.
+- ### A photo gallery
+    A gallery of photos representing the houses, amenitites and the POI (points of interest) in and around the site. 
+- ### Contact section
+    Gives users information about the contact details of the site's developer, estate agent and solicitor. Provides a contact form for any queries.
+- ### Footer
+    A footer section containing the business name and logo, another smaller callout button and social links.
 
 ## Technologies used
 - Workspace
