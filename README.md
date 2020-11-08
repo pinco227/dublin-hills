@@ -46,6 +46,14 @@
     - to find information about transportation.
     - to find information about career opportunities around the area.
 - ### Structure
+  The website is designed to be consistent, intuitive and learnable.
+  - Interaction design
+    - For predictability, the interface interacts with user actions as the user expetcs. The scroll/swipe actions respond with the normal behaviour and buttons acts instantly on press.
+    - For consistency, the interface offers a subtle visual feedback to the user (on hover, focus and press of buttons and fields) which is similar throughout the application and helps the user to quickly learn the functionality.
+  - Information architecture
+    - The content is organised and prioritised by importance from top to bottom and left to right.
+    - For consistency, the information is presented in the rule of 3 on large screens and individual on small screens.
+    - The information is structured mostly in nested lists and hub and spoke design for bigger screens.
 - ### Wireframes
   - Landing Page:
     - [mobile](#)
@@ -60,7 +68,10 @@
     - [tablet](#)
     - [desktop](#)
 - ### Design Choices
-  _[to be completed]_
+  - Colours
+  - Typography
+  - Images
+  - Icons
 
 ## Features
 Website's features are presented in an importance order.
@@ -89,6 +100,8 @@ Website's features are presented in an importance order.
     Gives users information about the contact details of the site's developer, estate agent and solicitor. Provides a contact form for any queries.
 - ### Footer
     A footer section containing the business name and logo, another smaller callout button and social links.
+- ### Accessibility
+    Images are provided with descriptive text.
 
 ## Technologies used
 - Workspace
