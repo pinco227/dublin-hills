@@ -31,11 +31,20 @@
   - View the desired house and place in person.
 - ### User Scenarios
   - #### As a user I need:
-    - _[to be completed]_
+    - to easily understand the purpose of the page.
+    - to easily navigate throughout the content.
+    - to first be able to see the information on my mobile and then share it with peers on a bigger screen.
+    - to find detailed information about the desired product.
+    - to find information about who the business is and where to find them, this will give me trust.
+    - to be able to contact the business and its contributors.
   - #### As a parent I need:
-    - _[to be completed]_
+    - to find information about the safety.
+    - to find information about child services within and around the estate/area.
+    - to find information about leisure and activities within and around the estate.
+    - to find information about why should I choose to live here.
   - #### As a worker I need:
-    - _[to be completed]_
+    - to find information about transportation.
+    - to find information about career opportunities around the area.
 - ### Structure
 - ### Wireframes
   - Landing Page:
@@ -58,7 +67,7 @@ Website's features are presented in an importance order.
 - ### Navigation bar
     Allows users to navigate through the page. As the website is mainly a single landing page, the navigation will be visible all the time.
 - ### Full width Call To Action (CTA)
-    Allows users to understand the page goal in the first look. Attracts users by giving on-point bite-size information. Allow business to acommplish the main goal by providing users with the viewing posibility.
+    Allows users to understand the page purpose in the first look. Attracts users by giving on-point bite-size information. Allow business to acommplish the main goal by providing users with the viewing posibility.
 - ### Book a Viewing Modal Form
     Allows interested users to book a viewing by having them fill the provided form.
 - ### Housing Estate's features section
@@ -89,7 +98,7 @@ Website's features are presented in an importance order.
   * [HTML5](https://en.wikipedia.org/wiki/HTML5)
   * [CSS3](https://en.wikipedia.org/wiki/CSS)
 - Frameworks & Libraries
-  * [Bootstrap4](https://getbootstrap.com/) was used for it's great responsivness and styling classes.
+  * [Bootstrap4](https://getbootstrap.com/) was used for its great responsivness and styling classes.
   * [Font Awesome](https://fontawesome.com/) icons were used for aesthetic and [UX](#ux) improvements.
   * [Google Fonts](https://fonts.google.com/)
 - Version Control
