@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merienda:wght@400;700&display=swap');
+
+body {
+    font-family: 'EB Garamond', serif;
+    padding-top: 4rem;
+}
+
+/*------------------------------------------ COLORS */
+.bg-color-navbar {
+    background-color: #EEE8D1;
+}
+
+.bg-color-footer {
+    background-color: #7E6235;
+}
+
+.navbar-brand-color {
+    color: #B8873A;
+}
+
+.navbar-brand-color:focus, .navbar-brand-color:hover {
+    color: #7E6235;
+}
+
+.nav-link {
+    color: #A0A074;
+}
+
+.nav-link:hover, .nav-link:active {
+    color: #3C5830;
+}
+
+/*------------------------------------------ HEADER */
+.navbar {
+    border-bottom: 4px solid #A0A074;
+    box-shadow: 0px 2px 10px #3C5830;
+}
+
+.navbar-brand {
+    font-family: 'Merienda', cursive;
+    padding: 0;
+    font-size: 1.7rem;
+}
+
+.nav-link {
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.navbar-toggler {
+    font-size: 1.9rem;
+    color: #3C5830;
+    border-color: #A0A074;
+}
+
+/*------------------------------------------ FOOTER */
+.footer {
+    color: #EEE8D1;
+    border-top: 4px solid #B8873A;
+}
