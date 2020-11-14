@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here" />
+    <meta name="theme-color" content="#EEE8D1" />
+    <meta name="Description" content="3 & 4 bedroom development with great location and many features" />
+    <title>Dublin Hills</title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="assets/icons/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <title>Title</title>
 </head>
 
 <body>
@@ -29,23 +31,22 @@
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link nav-link-active" href="index.html">Home <span
-                                    class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#features">Features</a>
+                            <a class="nav-link" href="#features">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#homes">Homes</a>
+                            <a class="nav-link" href="#homes">Homes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#site">Site</a>
+                            <a class="nav-link" href="#site">Site</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#gallery">Gallery</a>
+                            <a class="nav-link" href="#gallery">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#contact">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -66,8 +67,10 @@
                 </p>
             </div>
             <div class="cta-scroll">
-                <i class="fas fa-chevron-down d-none d-lg-block"></i>
-                <i class="fas fa-chevron-up d-block d-lg-none"></i>
+                <a href="#features">
+                    <i class="fas fa-chevron-down d-none d-lg-block"></i>
+                    <i class="fas fa-chevron-up d-block d-lg-none"></i>
+                </a>
             </div>
             <div class="jumbotron cta">
                 <!-- Credit: https://developers.google.com/web/updates/2016/07/autoplay -->
@@ -77,8 +80,9 @@
             </div>
         </section>
         <!-- Features -->
-        <section id="features" class="bg-color-features">
+        <section id="features-section" class="bg-color-features">
             <div class="container-xl">
+                <span id="features" class="invisible"></span>
                 <h2 class="section-heading">Features</h2>
                 <hr class="section-hr">
                 <p class="lead text-center">Dublin Hills is perfectly positioned to benefit from
@@ -91,9 +95,8 @@
                             </div>
                             <div class="col-10 feature-body order-2 order-md-1">
                                 <h3>Security & Management</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea dicta nesciunt iste
-                                    corrupti
-                                    odio qui, dolorum, nostrum</p>
+                                <p>The Management offers on site security as follows: security office, gate access,
+                                    security patrol, alarms, cctv.</p>
                             </div>
                         </div>
                         <div class="row align-items-center features-element">
@@ -102,9 +105,7 @@
                             </div>
                             <div class="col-10 feature-body order-2 order-md-1">
                                 <h3>Cleaning & Maintenance</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea dicta nesciunt iste
-                                    corrupti
-                                    odio qui, dolorum, nostrum</p>
+                                <p>Our maintenance services will keep the site clean and tidy at all times.</p>
                             </div>
                         </div>
                         <div class="row align-items-center features-element">
@@ -113,9 +114,8 @@
                             </div>
                             <div class="col-10 feature-body order-2 order-md-1">
                                 <h3>Mailroom & Delivery</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea dicta nesciunt iste
-                                    corrupti
-                                    odio qui, dolorum, nostrum</p>
+                                <p>You don't need to worry about missing the courier. We will take care of your parcels
+                                    and deliver them to your door when you are at home.</p>
                             </div>
                         </div>
                     </div>
@@ -130,9 +130,7 @@
                             </div>
                             <div class="col-10 feature-body">
                                 <h3>Childcare & Playground</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea dicta nesciunt iste
-                                    corrupti
-                                    odio qui, dolorum, nostrum</p>
+                                <p>We facilitate the site with a children daycare and a day playground.</p>
                             </div>
                         </div>
                         <div class="row align-items-center features-element">
@@ -141,9 +139,7 @@
                             </div>
                             <div class="col-10 feature-body">
                                 <h3>Shopping & Laundry</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea dicta nesciunt iste
-                                    corrupti
-                                    odio qui, dolorum, nostrum</p>
+                                <p>Essential grocery shopping and dry cleaners on site.</p>
                             </div>
                         </div>
                         <div class="row align-items-center features-element">
@@ -152,9 +148,8 @@
                             </div>
                             <div class="col-10 feature-body">
                                 <h3>Great Location</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea dicta nesciunt iste
-                                    corrupti
-                                    odio qui, dolorum, nostrum</p>
+                                <p>Bus, Luas, Train within 5km. Primary school, college, business centre, shopping mall
+                                    and natural park within 10km.</p>
                             </div>
                         </div>
                     </div>
