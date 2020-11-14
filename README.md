@@ -118,6 +118,7 @@ Website's features are presented in an importance order.
   * [Bootstrap4](https://getbootstrap.com/) was used for its great responsivness and styling classes.
   * [Font Awesome](https://fontawesome.com/) icons were used for aesthetic and [UX](#ux) improvements.
   * [Google Fonts](https://fonts.google.com/)
+  * [Colormind.io](http://colormind.io/bootstrap/) as a tool for color palette testing
 - Version Control
   * [Git](https://git-scm.com/) as Version Control System
   * [Github](https://www.github.com) for repository hosting
@@ -147,7 +148,7 @@ _[to be completed]_
 
 ## Credits
 - ### Content
-    _[to be completed]_
+  - [HSQ.ie](http://www.hsq.ie/) as a general content inspiration
 - ### Media
   - [ConvertIco](https://convertico.com/) for converting logo from .png to .ico
 - ### Code

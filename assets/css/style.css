@@ -4,10 +4,41 @@
 body {
     font-family: 'EB Garamond', serif;
     padding-top: 3rem;
+    background-color: #EEE8D1;
+    color: #7E6235;
 }
 
-h1,h2,h3 {
+a {
+    font-weight: bold;
+    color: #B8873A;
+    text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+    color: #7E6235;
+    text-decoration: none;
+}
+
+h1,h2 {
     font-family: 'Merienda', cursive;
+    color: #3C5830;
+}
+
+section {
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.section-heading {
+    text-align: center;
+}
+
+.section-hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(160, 160, 116, 0), rgba(160, 160, 116, 0.75), rgba(160, 160, 116, 0));
+    width: 50%;
 }
 
 /*------------------------------------------ COLORS */
@@ -17,6 +48,10 @@ h1,h2,h3 {
 
 .bg-color-footer {
     background-color: #7E6235;
+}
+
+.bg-color-features {
+    background-color: #EEE8D1;
 }
 
 .navbar-brand-color {
@@ -32,6 +67,10 @@ h1,h2,h3 {
 }
 
 .nav-link:hover, .nav-link:active {
+    color: #3C5830;
+}
+
+.features-heading-color {
     color: #3C5830;
 }
 
@@ -69,6 +108,7 @@ h1,h2,h3 {
 /*------------------------------------------ CALLOUT */
 #hero {
     position: relative;
+    padding: 0;
 }
 
 .cta {
@@ -77,6 +117,8 @@ h1,h2,h3 {
     overflow: hidden;
     z-index:-101;
     background-color: #7E6235;
+    border-radius: 0;
+    margin: 0;
 }
 
 .cta-container {
@@ -140,6 +182,7 @@ h1,h2,h3 {
     animation: MoveUpDown 1s linear infinite;
 }
 
+/* CREDIT: https://stackoverflow.com/questions/35990445/how-to-move-a-div-up-and-down-infinitely-in-css3 */
 @keyframes MoveUpDown {
   0%, 100% {
     bottom: 0;
@@ -153,6 +196,8 @@ h1,h2,h3 {
     font-size: 2rem;
 }
 
+/* CREDIT: http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video) for video positioning [issue](#encountered-issues
+----------- for center positioning */
 .cta-video { 
     position: absolute;
     top: 50%;
@@ -173,6 +218,43 @@ h1,h2,h3 {
     opacity: 0.4;
 }
 
+/*------------------------------------------ FEATURES */
+.features-left .features-element {
+    text-align: left;
+}
+
+.features-right .features-element {
+    text-align: right;
+}
+
+.features-center {
+    position: relative;
+    overflow: visible;
+    min-height: 300px;
+}
+
+.features-image {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    width: 300px;
+    height: 300px;
+    background-image: url('/assets/images/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-clip: content-box;
+    background-color: #A0A074;
+    padding: 1rem;
+    border: 2px dashed #B8873A;
+    border-radius: 50%;
+}
+
 /*------------------------------------------ FOOTER */
 .footer {
     color: #EEE8D1;
@@ -186,5 +268,21 @@ h1,h2,h3 {
     }
     .cta-container {
         font-size: 110%;
+    }
+}
+
+@media(max-width:767px) {
+    .features-right .features-element {
+        text-align: left;
+    }
+
+    .features-center {
+        min-height: 150px;
+    }
+
+    .features-image {
+        width: 150px;
+        height: 150px;
+        padding: 0.7rem;
     }
 }
