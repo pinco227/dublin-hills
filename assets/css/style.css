@@ -74,6 +74,10 @@ section {
     background-color: #EEE8D1;
 }
 
+.bg-color-homes {
+    background-color: #A0A074;
+}
+
 .navbar-brand-color {
     color: #B8873A;
 }
@@ -92,6 +96,10 @@ section {
 
 .features-heading-color {
     color: #3C5830;
+}
+
+.homes-heading-color {
+    color: #EEE8D1;
 }
 
 /*------------------------------------------ HEADER */
@@ -291,6 +299,37 @@ section {
     margin: 1rem;
     border: 2px dashed #B8873A;
     border-radius: 50%;
+}
+
+/*------------------------------------------ HOMES */
+#homes-section .section-hr {
+    background-image: linear-gradient(to right, rgba(238, 232, 209, 0), rgba(238, 232, 209, 0.75), rgba(238, 232, 209, 0));
+    width: 50%;
+}
+
+.house-card {
+    background-color: #EEE8D1;
+}
+
+.house-card .list-group, .house-card .list-group-item {
+    background-color: #EEE8D1;
+}
+
+.btn-house {
+    background-color: #B8873A;
+    border-color: #7E6235;
+    box-shadow: 2px 2px 3px #7E6235;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #EEE8D1;
+}
+
+.btn-house:hover, .btn-house:active, .btn-house:focus {
+    background-color: #7E6235;
+    border-color: #7E6235;
+    box-shadow: 3px 3px 7px #7E6235;
+    color: #fff;
+    outline: none;
 }
 
 /*------------------------------------------ FOOTER */
