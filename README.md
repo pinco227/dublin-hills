@@ -142,6 +142,27 @@ Website's features are presented in an importance order.
         transform: translate(-50%, -50%);
         ```
         according to **[this article](http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video)** by **Dudley Storey**.
+  - navbar would cover the title when navigating through the landing page using the nav links.
+    - fixed by adding the following css code that offsets the target:
+        ```
+        :target:before {
+            content: "";
+            display: block;
+            height: 2.2rem;
+            margin: -2.2rem 0 0;
+        }
+        :target {
+            display: block;
+            position: relative;
+            top: -2.2rem; 
+            visibility: hidden;
+        }
+        ```
+        and the following code before the section's title
+        ```
+        <span id="features" class="invisible"></span>
+        ```
+        this will get targeted by the ```#features``` nav link as described in **[this article](https://spigotdesign.com/smooth-scroll-offset-anchor-links-with-css/)**.
 
 ## Deployment
 _[to be completed]_
@@ -156,6 +177,7 @@ _[to be completed]_
   - [Stack Overflow](https://stackoverflow.com/) as a general resource
   - [Sam Dutton (Google dev)](https://developers.google.com/web/updates/2016/07/autoplay) for video attributes that makes autoplay available on android devices: ```autoplay loop muted```
   - [Dudley Storey](http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video) for video positioning [issue](#encountered-issues).
+  - [Spigot Design](https://spigotdesign.com/smooth-scroll-offset-anchor-links-with-css/) for anchor offsetting [issue](#encountered-issues).
 
 ## Aknowledgements
 _[to be completed]_
