@@ -128,7 +128,19 @@ Website's features are presented in an importance order.
   * [Inkscape](https://inkscape.org/) for creating the logo
 
 ## Testing
-_[to be completed]_
+- ### Encountered Issues
+  - video background on callout section would not autoplay on mobile, especially on android devices.
+      - fixed by adding these attributes to ```autoplay loop muted``` acording to **[this article](https://developers.google.com/web/updates/2016/07/autoplay)** of **Sam Dutton** and **[this repo](https://github.com/googlechrome/samples/tree/gh-pages/muted-autoplay)** of **Google Chrome**.
+      - for iOS10 devices I have used the ```playsinline``` video attribute.
+      - This feature is still not supported by all browsers/devices. For this I have provided a fallback which consists of a static background image as follows: ```background: url('../images/hero-img.jpg') no-repeat;```
+  - video background on callout section would not position on center of the screen.
+    - fixed by adding the following css code to the ```.cta-video``` selector: 
+        ```
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        ```
+        according to **[this article](http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video)** by **Dudley Storey**.
 
 ## Deployment
 _[to be completed]_
@@ -139,7 +151,10 @@ _[to be completed]_
 - ### Media
   - [ConvertIco](https://convertico.com/) for converting logo from .png to .ico
 - ### Code
-    _[to be completed]_
+  - [CSS TRICKS](https://css-tricks.com/) as a general resource
+  - [Stack Overflow](https://stackoverflow.com/) as a general resource
+  - [Sam Dutton (Google dev)](https://developers.google.com/web/updates/2016/07/autoplay) for video attributes that makes autoplay available on android devices: ```autoplay loop muted```
+  - [Dudley Storey](http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video) for video positioning [issue](#encountered-issues).
 
 ## Aknowledgements
 _[to be completed]_
