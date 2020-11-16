@@ -54,6 +54,11 @@ section {
     text-align: center;
 }
 
+.section-subheading {
+    text-align: center;
+    margin: 1rem 0;
+}
+
 .section-hr {
     border: 0;
     height: 2px;
@@ -78,6 +83,14 @@ section {
     background-color: #A0A074;
 }
 
+.bg-color-site {
+    background-color: #EEE8D1;
+}
+
+.bg-color-gallery {
+    background-color: #7E6235;
+}
+
 .navbar-brand-color {
     color: #B8873A;
 }
@@ -99,6 +112,18 @@ section {
 }
 
 .homes-heading-color {
+    color: #EEE8D1;
+}
+
+.site-heading-color {
+    color: #3C5830;
+}
+
+.site-subheading-color {
+    color: #7E6235;
+}
+
+.gallery-heading-color {
     color: #EEE8D1;
 }
 
@@ -304,7 +329,6 @@ section {
 /*------------------------------------------ HOMES */
 #homes-section .section-hr {
     background-image: linear-gradient(to right, rgba(238, 232, 209, 0), rgba(238, 232, 209, 0.75), rgba(238, 232, 209, 0));
-    width: 50%;
 }
 
 .house-card {
@@ -330,6 +354,23 @@ section {
     box-shadow: 3px 3px 7px #7E6235;
     color: #fff;
     outline: none;
+}
+
+/*------------------------------------------ SITE */
+#homes-section .section-hr {
+    background-image: linear-gradient(to right, rgba(160, 160, 116, 0), rgba(160, 160, 116, 0.75), rgba(160, 160, 116, 0));
+}
+
+.spec-name {
+    font-weight: bold;
+    text-align: right;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+/*------------------------------------------ GALLERY */
+#gallery-section .section-hr {
+    background-image: linear-gradient(to right, rgba(238, 232, 209, 0), rgba(238, 232, 209, 0.75), rgba(238, 232, 209, 0));
 }
 
 /*------------------------------------------ FOOTER */
@@ -367,6 +408,10 @@ section {
         height: 150px;
         padding: 0.3rem;
         border: 1px dashed #B8873A;
+    }
+
+    .spec-name {
+        text-align: left;
     }
 }
 
