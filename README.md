@@ -117,7 +117,8 @@ Website's features are presented in an importance order.
 - Frameworks & Libraries
   * [Bootstrap4](https://getbootstrap.com/) was used for its great responsivness and styling classes.
   * [Font Awesome](https://fontawesome.com/) icons were used for aesthetic and [UX](#ux) improvements.
-  * [Google Fonts](https://fonts.google.com/)
+  * [Google Fonts](https://fonts.google.com/) was use as the main font resource.
+  * [lightGallery](http://sachinchoolur.github.io/lightGallery/) plugin was used for photo galleries.
 - Version Control
   * [Git](https://git-scm.com/) as Version Control System
   * [Github](https://www.github.com) for repository hosting
