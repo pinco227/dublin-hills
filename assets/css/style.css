@@ -373,6 +373,30 @@ section {
     background-image: linear-gradient(to right, rgba(238, 232, 209, 0), rgba(238, 232, 209, 0.75), rgba(238, 232, 209, 0));
 }
 
+#site-gallery .item {
+    padding: 0.5rem;
+}
+
+#site-gallery .item img {
+    padding: .25rem;
+    background-color: #EEE8D1;
+    border: 1px solid #A0A074;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+#site-gallery .item img:hover {
+    background-color: #A0A074;
+    border: 1px solid #3C5830;
+    cursor: pointer;
+}
+
+/* lightGallery */
+.lg-backdrop {
+    background-color: rgba(0,0,0,0.8);
+}
+
 /*------------------------------------------ FOOTER */
 .footer {
     color: #EEE8D1;

@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.10.0/css/lightgallery.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="assets/icons/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 </head>
@@ -322,6 +323,26 @@
                 <span id="gallery" class="invisible"></span>
                 <h2 class="section-heading gallery-heading-color">Gallery</h2>
                 <hr class="section-hr">
+                <div class="row" id="site-gallery">
+                    <div class="item col-6 col-md-4 col-lg-3" data-src="https://via.placeholder.com/1000">
+                        <img src="https://via.placeholder.com/300" class="img-fluid" alt="">
+                    </div>
+                    <div class="item col-6 col-md-4 col-lg-3" data-src="https://via.placeholder.com/1200">
+                        <img src="https://via.placeholder.com/300" class="img-fluid" alt="">
+                    </div>
+                    <div class="item col-6 col-md-4 col-lg-3" data-src="https://via.placeholder.com/1000">
+                        <img src="https://via.placeholder.com/300" class="img-fluid" alt="">
+                    </div>
+                    <div class="item col-6 col-md-4 col-lg-3" data-src="https://via.placeholder.com/1200">
+                        <img src="https://via.placeholder.com/300" class="img-fluid" alt="">
+                    </div>
+                    <div class="item col-6 col-md-4 col-lg-3" data-src="https://via.placeholder.com/1000">
+                        <img src="https://via.placeholder.com/300" class="img-fluid" alt="">
+                    </div>
+                    <div class="item col-6 col-md-4 col-lg-3" data-src="https://via.placeholder.com/1200">
+                        <img src="https://via.placeholder.com/300" class="img-fluid" alt="">
+                    </div>
+                </div>
             </div>
         </section>
         <!-- Contact form -->
@@ -351,6 +372,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.10.0/js/lightgallery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <script>
+        $('#site-gallery').lightGallery({
+            selector: '.item'
+        });
+    </script>
 </body>
 
 </html>
