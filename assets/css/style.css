@@ -52,11 +52,12 @@ section {
 
 .section-heading {
     text-align: center;
+    margin: 2rem 0 0 0;
 }
 
 .section-subheading {
     text-align: center;
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 
 .section-hr {
@@ -64,6 +65,7 @@ section {
     height: 2px;
     background-image: linear-gradient(to right, rgba(160, 160, 116, 0), rgba(160, 160, 116, 0.75), rgba(160, 160, 116, 0));
     width: 50%;
+    margin-bottom: 2rem;
 }
 
 /*------------------------------------------ COLORS */
@@ -72,7 +74,7 @@ section {
 }
 
 .bg-color-footer {
-    background-color: #7E6235;
+    background-color: #3C5830;
 }
 
 .bg-color-features {
@@ -80,7 +82,7 @@ section {
 }
 
 .bg-color-homes {
-    background-color: #A0A074;
+    background-color: #3C5830;
 }
 
 .bg-color-site {
@@ -91,20 +93,25 @@ section {
     background-color: #7E6235;
 }
 
-.navbar-brand-color {
-    color: #B8873A;
+.bg-color-contact {
+    background-color: #EEE8D1;
 }
 
-.navbar-brand-color:focus, .navbar-brand-color:hover {
+
+.navbar-brand-color {
     color: #7E6235;
 }
 
+.navbar-brand-color:focus, .navbar-brand-color:hover {
+    color: #B8873A;
+}
+
 .nav-link {
-    color: #A0A074;
+    color: #7E6235;
 }
 
 .nav-link:hover, .nav-link:active {
-    color: #3C5830;
+    color: #B8873A;
 }
 
 .features-heading-color {
@@ -125,6 +132,14 @@ section {
 
 .gallery-heading-color {
     color: #EEE8D1;
+}
+
+.contact-heading-color {
+    color: #3C5830;
+}
+
+.contact-subheading-color{
+    color: #7E6235;
 }
 
 /*------------------------------------------ HEADER */
@@ -184,6 +199,7 @@ section {
     color: #EEE8D1;
     font-size: 150%;
     text-shadow: 1px 1px 2px #7E6235;
+    background-color: rgba(0,0,0,0); 
 }
 
 .cta-heading {
@@ -397,6 +413,51 @@ section {
     background-color: rgba(0,0,0,0.8);
 }
 
+/*------------------------------------------ CONTACT */
+.contact-card {
+    margin: 0.5rem 0;
+    border: 0;
+}
+
+#developer-card {
+    background-color: #B8873A;
+    color: #f5f5f5;
+}
+
+#agent-card {
+    background-color: #7E6235;
+    color: #EEE8D1;
+}
+
+#solicitor-card {
+    background-color: #3C5830;
+    color: #EEE8D1;
+}
+
+.contact-card .card-img {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-bottom-right-radius: 0;
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.btn-contact {
+    background-color: #B8873A;
+    border-color: #7E6235;
+    box-shadow: 2px 2px 3px #7E6235;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #EEE8D1;
+}
+
+.btn-contact:hover, .btn-contact:active, .btn-contact:focus {
+    background-color: #7E6235;
+    border-color: #7E6235;
+    box-shadow: 3px 3px 7px #7E6235;
+    color: #fff;
+    outline: none;
+}
+
 /*------------------------------------------ FOOTER */
 .footer {
     color: #EEE8D1;
@@ -405,6 +466,7 @@ section {
 
 /*------------------------------------------ MEDIA QUERIES */
 @media(max-width:991px) {
+    /* --------- FEATURES */
     .features-image {
         width: 225px;
         height: 225px;
@@ -414,6 +476,7 @@ section {
 }
 
 @media(max-width:767px) {
+    /* --------- FEATURES */
     .features-right .feature-body {
         text-align: left;
     }
@@ -434,16 +497,31 @@ section {
         border: 1px dashed #B8873A;
     }
 
+    /* --------- SITE */
     .spec-name {
         text-align: left;
+    }
+
+    /* --------- CONTACT */
+    .contact-card .card-img {
+        border-bottom-left-radius: calc(.25rem - 1px);
+        border-top-left-radius: calc(.25rem - 1px);
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
     }
 }
 
 @media(max-width:576px) {
+    /* --------- CALLOUT */
     .cta-heading {
         font-size: 2.2rem;
     }
     .cta-container {
         font-size: 110%;
+    }
+
+    /* --------- CONTACT */
+    .contact-card .card-body {
+        padding: 0.75rem;
     }
 }

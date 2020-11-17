@@ -57,6 +57,12 @@
     <article>
         <!-- Call to action -->
         <section id="hero">
+            <div class="jumbotron cta">
+                <!-- Credit: https://developers.google.com/web/updates/2016/07/autoplay -->
+                <video class="cta-video" autoplay loop muted playsinline>
+                    <source src="./assets/videos/hero-video.mp4" type="video/mp4">
+                </video>
+            </div>
             <div class="container-xl cta-container">
                 <h1 class="cta-heading">3 & 4 bedrooms development</h1>
                 <hr class="my-2">
@@ -74,12 +80,6 @@
                     <i class="fas fa-chevron-down d-none d-lg-block"></i>
                     <i class="fas fa-chevron-up d-block d-lg-none"></i>
                 </a>
-            </div>
-            <div class="jumbotron cta">
-                <!-- Credit: https://developers.google.com/web/updates/2016/07/autoplay -->
-                <video class="cta-video" autoplay loop muted playsinline>
-                    <source src="./assets/videos/hero-video.mp4" type="video/mp4">
-                </video>
             </div>
         </section>
         <!-- Features -->
@@ -183,7 +183,7 @@
                                     bulk
                                     of the card's
                                     content.</p>
-                                <a href="#" class="btn btn-house">Go somewhere</a>
+                                <a href="#" class="btn btn-block btn-house"><i class="fas fa-eye"></i> View Details</a>
                             </div>
                         </div>
                     </div>
@@ -204,7 +204,7 @@
                                     bulk
                                     of the card's
                                     content.</p>
-                                <a href="#" class="btn btn-house">Go somewhere</a>
+                                <a href="#" class="btn btn-block btn-house"><i class="fas fa-eye"></i> View Details</a>
                             </div>
                         </div>
                     </div>
@@ -225,7 +225,7 @@
                                     bulk
                                     of the card's
                                     content.</p>
-                                <a href="#" class="btn btn-house">Go somewhere</a>
+                                <a href="#" class="btn btn-block btn-house"><i class="fas fa-eye"></i> View Details</a>
                             </div>
                         </div>
                     </div>
@@ -324,33 +324,165 @@
                 <h2 class="section-heading gallery-heading-color">Gallery</h2>
                 <hr class="section-hr">
                 <div class="row" id="site-gallery">
-                    <div class="item col-6 col-md-4 col-lg-3" data-src="https://via.placeholder.com/1000">
+                    <div class="item col-6 col-md-4 col-lg-3 text-center" data-src="https://via.placeholder.com/1000">
                         <img src="https://via.placeholder.com/300" class="img-fluid" alt="">
                     </div>
-                    <div class="item col-6 col-md-4 col-lg-3" data-src="https://via.placeholder.com/1200">
+                    <div class="item col-6 col-md-4 col-lg-3 text-center" data-src="https://via.placeholder.com/1200">
                         <img src="https://via.placeholder.com/300" class="img-fluid" alt="">
                     </div>
-                    <div class="item col-6 col-md-4 col-lg-3" data-src="https://via.placeholder.com/1000">
+                    <div class="item col-6 col-md-4 col-lg-3 text-center" data-src="https://via.placeholder.com/1000">
                         <img src="https://via.placeholder.com/300" class="img-fluid" alt="">
                     </div>
-                    <div class="item col-6 col-md-4 col-lg-3" data-src="https://via.placeholder.com/1200">
+                    <div class="item col-6 col-md-4 col-lg-3 text-center" data-src="https://via.placeholder.com/1200">
                         <img src="https://via.placeholder.com/300" class="img-fluid" alt="">
                     </div>
-                    <div class="item col-6 col-md-4 col-lg-3" data-src="https://via.placeholder.com/1000">
+                    <div class="item col-6 col-md-4 col-lg-3 text-center" data-src="https://via.placeholder.com/1000">
                         <img src="https://via.placeholder.com/300" class="img-fluid" alt="">
                     </div>
-                    <div class="item col-6 col-md-4 col-lg-3" data-src="https://via.placeholder.com/1200">
+                    <div class="item col-6 col-md-4 col-lg-3 text-center" data-src="https://via.placeholder.com/1200">
                         <img src="https://via.placeholder.com/300" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
         </section>
         <!-- Contact form -->
-        <section id="contact-section">
+        <section id="contact-section" class="bg-color-contact">
             <div class="container-xl">
                 <span id="contact" class="invisible"></span>
-                <h2 class="section-heading">Contact</h2>
+                <h2 class="section-heading contact-heading-color">Contact</h2>
                 <hr class="section-hr">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card contact-card" id="developer-card">
+                            <div class="row no-gutters">
+                                <div class="col-4 col-md-12">
+                                    <img src="https://via.placeholder.com/348.jpg?text=Developer" class="card-img"
+                                        alt="Developer">
+                                </div>
+                                <div class="col-8 col-md-12">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Developer</h5>
+                                        <p class="card-text">
+                                            <i class="fas fa-map-marker"></i> Address Street no, house no.
+                                        </p>
+                                        <p class="card-text">
+                                            <i class="fas fa-phone-alt"></i> (+353) 012 345 6789
+                                        </p>
+                                        <p class="card-text">
+                                            <i class="far fa-envelope"></i> developer@address.com
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card contact-card" id="agent-card">
+                            <div class="row no-gutters">
+                                <div class="col-4 col-md-12">
+                                    <img src="https://via.placeholder.com/348.jpg?text=Agent" class="card-img"
+                                        alt="Estate Agent">
+                                </div>
+                                <div class="col-8 col-md-12">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Estate Agent</h5>
+                                        <p class="card-text">
+                                            <i class="fas fa-map-marker"></i> Address Street no, house no.
+                                        </p>
+                                        <p class="card-text">
+                                            <i class="fas fa-phone-alt"></i> (+353) 012 345 6789
+                                        </p>
+                                        <p class="card-text">
+                                            <i class="far fa-envelope"></i> developer@address.com
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card contact-card" id="solicitor-card">
+                            <div class="row no-gutters">
+                                <div class="col-4 col-md-12">
+                                    <img src="https://via.placeholder.com/348.jpg?text=Solicitor" class="card-img"
+                                        alt="Solicitor">
+                                </div>
+                                <div class="col-8 col-md-12">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Solicitor</h5>
+                                        <p class="card-text">
+                                            <i class="fas fa-map-marker"></i> Address Street no, house no.
+                                        </p>
+                                        <p class="card-text">
+                                            <i class="fas fa-phone-alt"></i> (+353) 012 345 6789
+                                        </p>
+                                        <p class="card-text">
+                                            <i class="far fa-envelope"></i> developer@address.com
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="section-subheading contact-subheading-color">Have a question?
+                    <br>
+                    <small>Use this form to email us!</small>
+                </h3>
+                <div class="row">
+                    <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2">
+                        <form method="POST" action="https://formdump.codeinstitute.net/" id="contact-form">
+                            <div class="form-group row">
+                                <label for="fname" class="col-md-2 col-form-label">First Name</label>
+                                <div class="col-md-10">
+                                    <input type="text" name="fname" class="form-control" id="fname"
+                                        placeholder="Your First Name" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="lname" class="col-md-2 col-form-label">Last Name</label>
+                                <div class="col-md-10">
+                                    <input type="text" name="lname" class="form-control" id="lname"
+                                        placeholder="Your Last Name" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="email" class="col-md-2 col-form-label">Email address</label>
+                                <div class="col-md-10">
+                                    <input type="email" name="email" class="form-control" id="email"
+                                        placeholder="your_email@address.com" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="tel" class="col-md-2 col-form-label">Telephone</label>
+                                <div class="col-md-10">
+                                    <input type="text" name="tel" class="form-control" id="tel"
+                                        placeholder="0123456789">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="subject" class="col-md-2 col-form-label">Subject</label>
+                                <div class="col-md-10">
+                                    <input type="text" name="subject" class="form-control" id="subject"
+                                        placeholder="Contact subject here" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="message" class="col-md-2 col-form-label">Message</label>
+                                <div class="col-md-10">
+                                    <textarea name="message" class="form-control" id="message" rows="10"
+                                        placeholder="Your message here" required></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-10 offset-md-2">
+                                    <button type="submit" class="btn btn-block btn-contact"><i
+                                            class="fas fa-paper-plane"></i> Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
     </article>
