@@ -178,6 +178,7 @@ _[to be completed]_
 - ### Code
   - [CSS TRICKS](https://css-tricks.com/) as a general resource.
   - [Stack Overflow](https://stackoverflow.com/) as a general resource.
+  - [w3schools](https://www.w3schools.com/) as a general resource.
   - [Sam Dutton (Google dev)](https://developers.google.com/web/updates/2016/07/autoplay) for video attributes that makes autoplay available on android devices: ```autoplay loop muted```.
   - [Dudley Storey](http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video) for video positioning [issue](#encountered-issues).
   - [Spigot Design](https://spigotdesign.com/smooth-scroll-offset-anchor-links-with-css/) for anchor offsetting [issue](#encountered-issues).
