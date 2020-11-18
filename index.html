@@ -70,9 +70,9 @@
                 <p>Benefit from a great lifestyle. <br>
                     Come live with us!</p>
                 <p class="lead">
-                    <a class="btn btn-lg btn-cta" href="#" role="button">
+                    <button type="button" class="btn btn-lg btn-cta" data-toggle="modal" data-target="#cta-form">
                         <i class="fas fa-clock"></i> Book a viewing now!
-                    </a>
+                    </button>
                 </p>
             </div>
             <div class="cta-scroll">
@@ -345,7 +345,7 @@
                 </div>
             </div>
         </section>
-        <!-- Contact form -->
+        <!-- Contact Form -->
         <section id="contact-section" class="bg-color-contact">
             <div class="container-xl">
                 <span id="contact" class="invisible"></span>
@@ -486,6 +486,7 @@
             </div>
         </section>
     </article>
+    <!-- Footer -->
     <footer class="footer bg-color-footer mt-auto py-3">
         <div class="container-xl">
             <div class="row">
@@ -501,6 +502,81 @@
             </div>
         </div>
     </footer>
+
+    <!-- CTA Modal form -->
+    <div class="modal fade" id="cta-form" tabindex="-1" aria-labelledby="cta-modal-title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <form method="POST" action="https://formdump.codeinstitute.net/">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="cta-modal-title">Book a Viewing</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group row">
+                            <label for="fname" class="col-md-2 col-form-label">First Name</label>
+                            <div class="col-md-10">
+                                <input type="text" name="fname" class="form-control" id="fname"
+                                    placeholder="Your First Name" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="lname" class="col-md-2 col-form-label">Last Name</label>
+                            <div class="col-md-10">
+                                <input type="text" name="lname" class="form-control" id="lname"
+                                    placeholder="Your Last Name" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="email" class="col-md-2 col-form-label">Email address</label>
+                            <div class="col-md-10">
+                                <input type="email" name="email" class="form-control" id="email"
+                                    placeholder="your_email@address.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="tel" class="col-md-2 col-form-label">Telephone</label>
+                            <div class="col-md-10">
+                                <input type="text" name="tel" class="form-control" id="tel" placeholder="0123456789"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="house" class="col-md-2 col-form-label">House to view</label>
+                            <div class="col-md-10">
+                                <select name="house" id="house" size="3" class="form-control" required>
+                                    <option value="Montpelier">Montpelier</option>
+                                    <option value="ThreeRock">Three Rock</option>
+                                    <option value="Lugmore">Lugmore</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="date" class="col-md-2 col-form-label">Date</label>
+                            <div class="col-md-10">
+                                <input type="date" name="date" class="form-control" id="date" min="2021-01-11"
+                                    max="2021-03-30" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="time" class="col-md-2 col-form-label">Time</label>
+                            <div class="col-md-10">
+                                <input type="time" name="time" class="form-control" id="time" min="10:00" max="16:00"
+                                    required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-block btn-cta">Request
+                            Booking</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>

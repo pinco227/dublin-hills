@@ -68,6 +68,12 @@ section {
     margin-bottom: 2rem;
 }
 
+.form-control:focus {
+    border-color: #3C5830;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(60, 88, 48,.25);
+}
+
 /*------------------------------------------ COLORS */
 .bg-color-navbar {
     background-color: #EEE8D1;
@@ -289,6 +295,43 @@ section {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transition: 1s opacity;
     opacity: 0.4;
+}
+
+/*------------------------------------------ CTA MODAL */
+.modal-backdrop.show {
+    opacity: 0.8;
+}
+
+#cta-form .modal-content {
+    background-color: #EEE8D1;
+}
+
+#cta-form .modal-header {
+    align-items: center;
+}
+
+#cta-form .close {
+    color: #7E6235;
+    opacity: 1;
+    font-size: 1.7rem;
+}
+
+#cta-form .close:hover {
+    color: #B8873A;
+    opacity: 1;
+}
+
+#cta-form select option:not(:last-child) {
+    border-bottom: 1px solid lightgrey;
+}
+
+#cta-form select option {
+    padding: 0.3rem;
+}
+
+#cta-form select option:hover {
+    background-color: #EEE8D1;
+    cursor: pointer;
 }
 
 /*------------------------------------------ FEATURES */
