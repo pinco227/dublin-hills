@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merienda:wght@400;700&display=swap');
 
+/*  COLORS
+Light shades:       #EEE8D1     ATHS SPECIAL
+Lighter shades:     #F4F0DE     PARCHMENT
+Light accent:       #A0A074     GURKHA
+Lighter accent:     #CECEB1     THISTLE GREEN
+Main accent:        #B8873A     COPPER
+Dark accent:        #3C5830     WOODLAND
+Dark shades:        #7E6235     POTTERS CLAY
+Darker shades:      #493722     IROKO
+*/
+
 /*------------------------------------------ GENERAL */
 html {
     scroll-behavior: smooth;
@@ -23,8 +34,8 @@ html {
 body {
     font-family: 'EB Garamond', serif;
     padding-top: 3rem;
-    background-color: #EEE8D1;
-    color: #7E6235;
+    background-color: #F4F0DE;
+    color: #3C5830;
 }
 
 a {
@@ -80,11 +91,11 @@ section {
 }
 
 .bg-color-footer {
-    background-color: #3C5830;
+    background-color: #493722;
 }
 
 .bg-color-features {
-    background-color: #EEE8D1;
+    background-color: #F4F0DE;
 }
 
 .bg-color-homes {
@@ -92,7 +103,7 @@ section {
 }
 
 .bg-color-site {
-    background-color: #EEE8D1;
+    background-color: #F4F0DE;
 }
 
 .bg-color-gallery {
@@ -100,7 +111,7 @@ section {
 }
 
 .bg-color-contact {
-    background-color: #EEE8D1;
+    background-color: #F4F0DE;
 }
 
 
@@ -125,7 +136,7 @@ section {
 }
 
 .homes-heading-color {
-    color: #EEE8D1;
+    color: #F4F0DE;
 }
 
 .site-heading-color {
@@ -137,7 +148,7 @@ section {
 }
 
 .gallery-heading-color {
-    color: #EEE8D1;
+    color: #F4F0DE;
 }
 
 .contact-heading-color {
@@ -210,7 +221,7 @@ section {
 
 .cta-heading {
     font-size: 3rem;
-    color: #EEE8D1;
+    color: #F4F0DE;
     text-shadow: 2px 2px 3px #3C5830;
     line-height: 4rem;
 }
@@ -228,18 +239,18 @@ section {
 }
 
 .btn-cta {
-    background-color: #B8873A;
-    border-color: #7E6235;
-    box-shadow: 2px 2px 3px #7E6235;
+    background-color: #3C5830;
+    border-color: #2a3d21;
+    box-shadow: 2px 2px 3px #3C5830;
     text-transform: uppercase;
     font-weight: bold;
-    color: #EEE8D1;
+    color: #F4F0DE;
 }
 
 .btn-cta:hover, .btn-cta:active, .btn-cta:focus {
-    background-color: #7E6235;
-    border-color: #7E6235;
-    box-shadow: 3px 3px 7px #7E6235;
+    background-color: #507c3c;
+    border-color: #3C5830;
+    box-shadow: 3px 3px 7px #3C5830;
     color: #fff;
     outline: none;
 }
@@ -251,14 +262,14 @@ section {
     width: 100%;
     max-width: 100%;
     text-align: center;
-    color: #EEE8D1;
+    color: #F4F0DE;
     font-size: 1.5rem;
     padding-bottom: 2rem;
     animation: MoveUpDown 1s linear infinite;
 }
 
 .cta-scroll a{
-    color: #EEE8D1;
+    color: #F4F0DE;
 }
 
 /* CREDIT: https://stackoverflow.com/questions/35990445/how-to-move-a-div-up-and-down-infinitely-in-css3 */
@@ -330,7 +341,7 @@ section {
 }
 
 #cta-form select option:hover {
-    background-color: #EEE8D1;
+    background-color: #F4F0DE;
     cursor: pointer;
 }
 
@@ -404,7 +415,7 @@ section {
     box-shadow: 2px 2px 3px #7E6235;
     text-transform: uppercase;
     font-weight: bold;
-    color: #EEE8D1;
+    color: #F4F0DE;
 }
 
 .btn-house:hover, .btn-house:active, .btn-house:focus {
@@ -469,12 +480,12 @@ section {
 
 #agent-card {
     background-color: #7E6235;
-    color: #EEE8D1;
+    color: #F4F0DE;
 }
 
 #solicitor-card {
     background-color: #3C5830;
-    color: #EEE8D1;
+    color: #F4F0DE;
 }
 
 .contact-card .card-img {
@@ -485,18 +496,18 @@ section {
 }
 
 .btn-contact {
-    background-color: #B8873A;
-    border-color: #7E6235;
-    box-shadow: 2px 2px 3px #7E6235;
+    background-color: #3C5830;
+    border-color: #2a3d21;
+    box-shadow: 2px 2px 3px #3C5830;
     text-transform: uppercase;
     font-weight: bold;
-    color: #EEE8D1;
+    color: #F4F0DE;
 }
 
 .btn-contact:hover, .btn-contact:active, .btn-contact:focus {
-    background-color: #7E6235;
-    border-color: #7E6235;
-    box-shadow: 3px 3px 7px #7E6235;
+    background-color: #507c3c;
+    border-color: #3C5830;
+    box-shadow: 3px 3px 7px #3C5830;
     color: #fff;
     outline: none;
 }
@@ -505,6 +516,10 @@ section {
 .footer {
     color: #EEE8D1;
     border-top: 4px solid #B8873A;
+}
+
+.footer-heading {
+    color: #F4F0DE;
 }
 
 /*------------------------------------------ MEDIA QUERIES */
