@@ -60,7 +60,7 @@
             <div class="jumbotron cta">
                 <!-- Credit: https://developers.google.com/web/updates/2016/07/autoplay -->
                 <video class="cta-video" autoplay loop muted playsinline>
-                    <source src="./assets/videos/hero-video.mp4" type="video/mp4">
+                    <source src="assets/videos/hero-video.mp4" type="video/mp4">
                 </video>
             </div>
             <div class="container-xl cta-container">
@@ -345,13 +345,15 @@
                 </div>
             </div>
         </section>
-        <!-- Contact Form -->
+        <!-- Contact Section -->
         <section id="contact-section" class="bg-color-contact">
             <div class="container-xl">
                 <span id="contact" class="invisible"></span>
                 <h2 class="section-heading contact-heading-color">Contact</h2>
                 <hr class="section-hr">
+                <!-- Contact cards -->
                 <div class="row">
+                    <!-- Developer card -->
                     <div class="col-md-4">
                         <div class="card contact-card" id="developer-card">
                             <div class="row no-gutters">
@@ -376,6 +378,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Estate Agent card -->
                     <div class="col-md-4">
                         <div class="card contact-card" id="agent-card">
                             <div class="row no-gutters">
@@ -400,6 +403,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Solicitor card -->
                     <div class="col-md-4">
                         <div class="card contact-card" id="solicitor-card">
                             <div class="row no-gutters">
@@ -425,6 +429,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- Contact form -->
                 <h3 class="section-subheading contact-subheading-color">Have a question?
                     <br>
                     <small>Use this form to email us!</small>
@@ -490,19 +495,51 @@
     <footer class="footer bg-color-footer mt-auto py-3">
         <div class="container-xl">
             <div class="row">
-                <div class="col-sm-4">
-                    <h3 class="footer-heading">
+                <!-- Copyright column -->
+                <div class="col-md-4 order-3 order-md-1 my-4" id="copy-column">
+                    <h3 class="footer-heading d-flex align-items-center">
                         <img src="assets/images/logo-small.png" height="20" alt="Dublin Hills logo">
                         Dublin Hills
                     </h3>
                     <p>Copyright &copy; 2020 Paul Istratoaie. <br>
                         Some Rights Reserved.</p>
                 </div>
-                <div class="col-sm-4">
-                    <h3 class="footer-heading text-center">Interested?</h3>
+                <!-- 2nd CTA column -->
+                <div class="col-md-4 order-1 order-md-2 my-4" id="cta-column">
+                    <h3 class="footer-heading">Interested?</h3>
+                    <button type="button" class="btn btn-cta2" data-toggle="modal" data-target="#cta-form">
+                        <i class="fas fa-clock"></i> Book a viewing now!
+                    </button>
                 </div>
-                <div class="col-sm-4">
-                    <h3 class="footer-heading text-center">Get Social</h3>
+                <!-- Social media column -->
+                <div class="col-md-4 order-2 order-md-3 my-4" id="social-column">
+                    <h3 class="footer-heading">Social Media</h3>
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a href="https://facebook.com" target="_blank">
+                                <i class="fab fa-facebook" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com" target="_blank">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.pinterest.com/" target="_blank">
+                                <i class="fab fa-pinterest" aria-hidden="true"></i>
+                                <span class="sr-only">Pinterest</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

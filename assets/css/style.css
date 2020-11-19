@@ -169,6 +169,25 @@ section {
     font-family: 'Merienda', serif;
     padding: 0;
     font-size: 1.7rem;
+    text-shadow: 1px 1px 2px #A0A074;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.navbar-brand img {
+    -webkit-filter: drop-shadow(2px 2px 2px #493722);
+    filter: drop-shadow(2px 2px 2px #493722);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.navbar-brand:hover img {
+    -webkit-filter: drop-shadow(2px 2px 2px #B8873A);
+    filter: drop-shadow(2px 2px 2px #B8873A);
 }
 
 .nav-link {
@@ -518,8 +537,65 @@ section {
     border-top: 4px solid #B8873A;
 }
 
+#social-column {
+    text-align: right;
+}
+
+#cta-column {
+    text-align: center;
+}
+
+#copy-column img {
+    margin-right: 0.5rem;
+    -webkit-filter: drop-shadow(2px 2px 3px #16110a);
+    filter:         drop-shadow(2px 2px 3px #16110a); 
+}
+
+#copy-column .footer-heading {
+    font-size: 1.5rem;
+    font-family: 'Merienda', serif;
+}
+
 .footer-heading {
     color: #F4F0DE;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 3px #16110a;
+}
+
+.btn-cta2 {
+    background-color: #F4F0DE;
+    border-color: #EEE8D1;
+    box-shadow: 2px 2px 3px #16110a;    
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2a3d21;
+}
+
+.btn-cta2:hover, .btn-cta2:active, .btn-cta2:focus {
+    background-color: #EEE8D1;
+    border-color: #F4F0DE;
+    box-shadow: 3px 3px 7px #16110a;
+    color: #B8873A;
+    outline: none;
+}
+
+.social-links li a i {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    color: #B8873A;
+    background-color: #F4F0DE;
+    box-shadow: 2px 2px 3px #16110a;
+    transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #3C5830;
+    color: #F4F0DE;
+    box-shadow: 3px 3px 7px #16110a;
 }
 
 /*------------------------------------------ MEDIA QUERIES */
@@ -566,6 +642,15 @@ section {
         border-top-left-radius: calc(.25rem - 1px);
         border-bottom-right-radius: 0;
         border-top-right-radius: 0;
+    }
+
+    /* --------- FOOTER */
+    #copy-column, #social-column {
+        text-align: center;
+    }
+
+    #copy-column .footer-heading {
+        justify-content: center;
     }
 }
 
