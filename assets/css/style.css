@@ -102,6 +102,10 @@ section {
     background-color: #3C5830;
 }
 
+.bg-color-presentation {
+    background-color: #F4F0DE;
+}
+
 .bg-color-site {
     background-color: #F4F0DE;
 }
@@ -137,6 +141,10 @@ section {
 
 .homes-heading-color {
     color: #F4F0DE;
+}
+
+.house-title-heading-color {
+    color: #3C5830;
 }
 
 .site-heading-color {
@@ -446,11 +454,16 @@ section {
 }
 
 /*------------------------------------------ HOUSE PAGES */
+#house-presentation .section-hr {
+    background-image: linear-gradient(to right, rgba(184, 135, 58, 0), rgba(184, 135, 58, 0.75), rgba(184, 135, 58, 0));
+}
 
-
-/*------------------------------------------ MONTPELIER */
-/*------------------------------------------ THREE ROCK */
-/*------------------------------------------ LUGMORE */
+#house-presentation img {
+    max-width: 735px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
 
 /*------------------------------------------ SITE */
 #site-section .section-hr {
