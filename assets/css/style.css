@@ -199,13 +199,13 @@ section {
 .navbar-toggler {
     font-size: 1.9rem;
     color: #3C5830;
-    border-color: #A0A074;
+    border: none;
+    padding: 0;
 }
 
 .navbar-toggler:focus, .navbar-toggler:active {
     outline: none;
     color: #7E6235;
-    border-color: #B8873A;
 
 }
 
@@ -445,8 +445,15 @@ section {
     outline: none;
 }
 
+/*------------------------------------------ HOUSE PAGES */
+
+
+/*------------------------------------------ MONTPELIER */
+/*------------------------------------------ THREE ROCK */
+/*------------------------------------------ LUGMORE */
+
 /*------------------------------------------ SITE */
-#homes-section .section-hr {
+#site-section .section-hr {
     background-image: linear-gradient(to right, rgba(160, 160, 116, 0), rgba(160, 160, 116, 0.75), rgba(160, 160, 116, 0));
 }
 
