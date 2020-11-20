@@ -209,16 +209,36 @@
             </div>
         </section>
         <!-- House Gallery -->
-        <section id="house-gallery">
+        <section id="house-gallery" class="bg-color-house-gallery">
             <div class="container-xl">
                 <h2 class="section-heading house-gallery-heading-color">Gallery</h2>
                 <hr class="section-hr">
+                <div class="row justify-content-center" id="houses-gallery">
+                    <div class="item col-6 col-md-4 col-lg-3 text-center" data-src="https://via.placeholder.com/1000">
+                        <img src="https://via.placeholder.com/300" class="img-fluid" alt="">
+                    </div>
+                    <div class="item col-6 col-md-4 col-lg-3 text-center" data-src="https://via.placeholder.com/1200">
+                        <img src="https://via.placeholder.com/300" class="img-fluid" alt="">
+                    </div>
+                    <div class="item col-6 col-md-4 col-lg-3 text-center" data-src="https://via.placeholder.com/1000">
+                        <img src="https://via.placeholder.com/300" class="img-fluid" alt="">
+                    </div>
+                    <div class="item col-6 col-md-4 col-lg-3 text-center" data-src="https://via.placeholder.com/1200">
+                        <img src="https://via.placeholder.com/300" class="img-fluid" alt="">
+                    </div>
+                    <div class="item col-6 col-md-4 col-lg-3 text-center" data-src="https://via.placeholder.com/1000">
+                        <img src="https://via.placeholder.com/300" class="img-fluid" alt="">
+                    </div>
+                    <div class="item col-6 col-md-4 col-lg-3 text-center" data-src="https://via.placeholder.com/1200">
+                        <img src="https://via.placeholder.com/300" class="img-fluid" alt="">
+                    </div>
+                </div>
             </div>
         </section>
-        <!-- House Homes -->
-        <section id="house-gallery">
+        <!-- House Other Homes -->
+        <section id="house-other">
             <div class="container-xl">
-                <h2 class="section-heading house-gallery-heading-color">Other Homes</h2>
+                <h2 class="section-heading house-other-heading-color">Other Homes</h2>
                 <hr class="section-hr">
             </div>
         </section>
@@ -366,6 +386,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
     <script>
         $('#plans-gallery').lightGallery({
+            selector: '.item'
+        });
+        $('#houses-gallery').lightGallery({
             selector: '.item'
         });
     </script>
