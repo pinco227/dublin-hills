@@ -106,6 +106,10 @@ section {
     background-color: #F4F0DE;
 }
 
+.bg-color-plans {
+    background-color: #CECEB1;
+}
+
 .bg-color-site {
     background-color: #F4F0DE;
 }
@@ -145,6 +149,10 @@ section {
 
 .house-title-heading-color {
     color: #3C5830;
+}
+
+.house-plans-heading-color {
+    color: #493722;
 }
 
 .site-heading-color {
@@ -454,6 +462,7 @@ section {
 }
 
 /*------------------------------------------ HOUSE PAGES */
+/* ------------ Presentation section */
 #house-presentation .section-hr {
     background-image: linear-gradient(to right, rgba(184, 135, 58, 0), rgba(184, 135, 58, 0.75), rgba(184, 135, 58, 0));
 }
@@ -463,6 +472,26 @@ section {
     width: 100%;
     height: auto;
     margin-bottom: 1.5rem;
+}
+
+/* ------------ Plans section */
+#plans-gallery .item {
+    padding: 1rem;
+}
+
+#plans-gallery .item img {
+    padding: .25rem;
+    background-color: #EEE8D1;
+    border: 1px solid #A0A074;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+#plans-gallery .item img:hover {
+    background-color: #A0A074;
+    border: 1px solid #3C5830;
+    cursor: pointer;
 }
 
 /*------------------------------------------ SITE */
