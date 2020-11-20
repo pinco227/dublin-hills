@@ -10,7 +10,9 @@ This is the presentation website for a new Housing Development that offers a goo
     - [User Goals](#users-goals)
     - [User Scenarios](#user-scenarios)
     - [Structure](#structure)
-    - [Wireframes](#wireframes)
+    - [Skeleton](#skeleton)
+      - [Wireframes](#initial-wireframes)
+      - [Improvements](#improvements)
     - [Design Choices](#design-choices)
   - [Features](#features)
   - [Technologies used](#technologies-used)
@@ -58,24 +60,34 @@ This is the presentation website for a new Housing Development that offers a goo
     - The content is organised and prioritised by importance from top to bottom and left to right.
     - For consistency, the information is presented in the rule of 3 on large screens and individual on small screens.
     - The information is structured mostly in nested lists and hub and spoke design for bigger screens.
-- ### Wireframes
-  - Landing Page:
-    - [mobile](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/index-mobile.png)
-    - [tablet](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/index-tablet.png)
-    - [desktop](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/index-desktop.png)
-  - House Details Page:
-    - [mobile](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/house-mobile.png)
-    - [tablet](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/house-tablet.png)
-    - [desktop](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/house-desktop.png)
-  - CTA Modal Form:
-    - [mobile](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/form-mobile.png)
-    - [tablet](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/form-tablet.png)
-    - [desktop](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/form-desktop.png)
+- ### Skeleton
+  - ### Initial wireframes
+    - Landing Page:
+      - [mobile](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/index-mobile.png)
+      - [tablet](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/index-tablet.png)
+      - [desktop](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/index-desktop.png)
+    - House Details Page:
+      - [mobile](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/house-mobile.png)
+      - [tablet](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/house-tablet.png)
+      - [desktop](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/house-desktop.png)
+    - CTA Modal Form:
+      - [mobile](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/form-mobile.png)
+      - [tablet](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/form-tablet.png)
+      - [desktop](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/form-desktop.png)
+  - ### Improvements
+    - #### Landing Page:
+      [to be completed]
+    - #### House Details Page:
+      [to be completed]
 - ### Design Choices
-  - Colours
-  - Typography
-  - Images
-  - Icons
+  - #### Colours
+    [to be completed]
+  - #### Typography
+    [to be completed]
+  - #### Images
+    [to be completed]
+  - #### Icons
+    [to be completed]
 
 ## Features
 Website's features are presented in an importance order.
