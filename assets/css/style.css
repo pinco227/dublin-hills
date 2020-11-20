@@ -110,6 +110,10 @@ section {
     background-color: #CECEB1;
 }
 
+.bg-color-specs {
+    background-color: #F4F0DE;
+}
+
 .bg-color-site {
     background-color: #F4F0DE;
 }
@@ -152,6 +156,10 @@ section {
 }
 
 .house-plans-heading-color {
+    color: #493722;
+}
+
+.house-specs-heading-color {
     color: #493722;
 }
 
