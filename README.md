@@ -185,8 +185,8 @@ _[to be completed]_
 ## Credits
 - ### Content
   - [HSQ.ie](http://www.hsq.ie/) as a general content inspiration.
-  - [Abbotfield.ie](http://www.abbottfield.ie/) for site and house specifications, for house plans and for montpelier and lugmore house photos.
-  - [OldtownWalk.ie](https://www.oldtownwalk.ie/) for three rock house photos and site entrance photo.
+  - [Abbotfield.ie](http://www.abbottfield.ie/) for site and house specifications, for house plans and for lugmore house photos.
+  - [OldtownWalk.ie](https://www.oldtownwalk.ie/) for three rock and montpelier houses photos and site entrance photo.
   - [MeadowBankSwords.ie](http://meadowbankswords.ie/) for site plan.
 - ### Media
   - [ConvertIco](https://convertico.com/) for converting logo from .png to .ico .
