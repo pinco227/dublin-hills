@@ -757,3 +757,31 @@ section {
         padding: 0.75rem;
     }
 }
+
+@media(max-width:324px), (max-height: 590px) {
+    /* --------- NAVBAR */
+    .navbar {
+        padding: 0.5rem;
+    }
+    .navbar-brand {
+        font-size: 1rem;
+    }
+    .navbar-toggler {
+        font-size: 1.5rem;
+    }
+
+    /* --------- CALLOUT */
+    .cta-container {
+        font-size: 100%;
+        top: 2rem;
+    }
+    .cta-container .lead {
+        font-size: 120%;
+    }
+    .cta-heading {
+        font-size: 1.7rem;
+    }
+    .btn-cta {
+        font-size: 1rem;
+    }
+}
