@@ -139,7 +139,7 @@ Website's features are presented in an importance order.
   * [Balsamiq](https://balsamiq.com/) for creating [wireframes](#wireframes).
 - Media
   * [Inkscape](https://inkscape.org/) for creating the logo.
-  * [Photopea](https://www.photopea.com/) online photo editor tool for creating the BER rating labels.
+  * [Photopea](https://www.photopea.com/) online photo editor tool for creating the BER rating labels and for editing the site plan and the site entrance sign.
 - Other
   * [Colormind.io](http://colormind.io/bootstrap/) as a tool for color palette testing.
 
@@ -185,7 +185,9 @@ _[to be completed]_
 ## Credits
 - ### Content
   - [HSQ.ie](http://www.hsq.ie/) as a general content inspiration.
-  - [Abbotfield.ie](http://www.abbottfield.ie/) for site specification content.
+  - [Abbotfield.ie](http://www.abbottfield.ie/) for site and house specifications, for house plans and for montpelier and lugmore house photos.
+  - [OldtownWalk.ie](https://www.oldtownwalk.ie/) for three rock house photos and site entrance photo.
+  - [MeadowBankSwords.ie](http://meadowbankswords.ie/) for site plan.
 - ### Media
   - [ConvertIco](https://convertico.com/) for converting logo from .png to .ico .
 - ### Code
