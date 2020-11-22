@@ -132,15 +132,16 @@ Website's features are presented in an importance order.
   * [Google Fonts](https://fonts.google.com/) was use as the main font resource.
   * [lightGallery](http://sachinchoolur.github.io/lightGallery/) plugin was used for photo galleries.
 - Version Control
-  * [Git](https://git-scm.com/) as Version Control System
-  * [Github](https://www.github.com) for repository hosting
-  * [Commitizen](https://github.com/commitizen/cz-cli) for commit linting
+  * [Git](https://git-scm.com/) as Version Control System.
+  * [Github](https://www.github.com) for repository hosting.
+  * [Commitizen](https://github.com/commitizen/cz-cli) for commit linting.
 - Wireframes
-  * [Balsamiq](https://balsamiq.com/) for creating [wireframes](#wireframes)
+  * [Balsamiq](https://balsamiq.com/) for creating [wireframes](#wireframes).
 - Media
-  * [Inkscape](https://inkscape.org/) for creating the logo
+  * [Inkscape](https://inkscape.org/) for creating the logo.
+  * [Photopea](https://www.photopea.com/) online photo editor tool for creating the BER rating labels.
 - Other
-  * [Colormind.io](http://colormind.io/bootstrap/) as a tool for color palette testing
+  * [Colormind.io](http://colormind.io/bootstrap/) as a tool for color palette testing.
 
 ## Testing
 - ### Encountered Issues
