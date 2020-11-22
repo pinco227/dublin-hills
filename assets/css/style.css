@@ -561,15 +561,48 @@ section {
     color: #F4F0DE;
     box-shadow: 2px 2px 3px rgba(126, 98, 53,0.5);
 }
+
 .travel-time {
     font-size: 1.6rem;
     padding-top: 1rem;
     font-weight: 800;
     margin: 0;
 }
+
 .travel-dest {
     font-size: 1.2rem;
     font-weight: 600;
+}
+
+.plan-legend-item {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.plan-legend-item h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.1rem;
+}
+
+.plan-legend-item p {
+    margin-bottom: 0;
+}
+
+#legend-montpelier h4 i {
+    color: #972686;
+}
+
+#legend-three-rock h4 i {
+    color: #17b4ae;
+}
+
+#legend-lugmore h4 i {
+    color: #9ac97e;
+}
+
+#legend-mgmt h4 i {
+    color: #B8873A;
 }
 
 /*------------------------------------------ GALLERY */
