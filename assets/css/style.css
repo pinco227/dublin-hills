@@ -516,22 +516,43 @@ section {
 }
 
 #houses-gallery .item {
-    padding: 1rem;
+    max-height: 175px;
+    margin-bottom: 0.5rem;
 }
 
-#houses-gallery .item img {
-    padding: .25rem;
+#houses-gallery .house-gallery-img-container {
+    position: relative;
+    overflow: hidden;
+    height: 175px;
+    width: 100%;
     background-color: #EEE8D1;
-    border: 1px solid #A0A074;
+    border: 2px solid #EEE8D1;
     border-radius: .25rem;
-    max-width: 100%;
-    height: auto;
+}
+
+#houses-gallery .house-gallery-img-container:hover {
+    background-color: #fff;
+    border: 2px solid #A0A074;  
+}
+
+#houses-gallery .house-gallery-img-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    background-color: #fff;
+    transition: 0.2s opacity;
+    opacity: 1;
 }
 
 #houses-gallery .item img:hover {
-    background-color: #A0A074;
-    border: 1px solid #3C5830;
     cursor: pointer;
+    opacity: 0.7;
 }
 
 /*------------------------------------------ SITE */
@@ -632,6 +653,10 @@ section {
 /* lightGallery */
 .lg-backdrop {
     background-color: rgba(0,0,0,0.8);
+}
+
+.lg-image {
+    background-color: #fff;
 }
 
 /*------------------------------------------ CONTACT */
