@@ -546,6 +546,32 @@ section {
     text-transform: capitalize;
 }
 
+.travel-card {
+    padding: 1rem;
+}
+
+.travel-card-icon {
+    background-color: #B8873A;
+    border-radius: 50%;
+    font-size: 3rem;
+    line-height: 3rem;
+    width: 6rem;
+    height: 6rem;
+    padding: 1.5rem 1.6rem;
+    color: #F4F0DE;
+    box-shadow: 2px 2px 3px rgba(126, 98, 53,0.5);
+}
+.travel-time {
+    font-size: 1.6rem;
+    padding-top: 1rem;
+    font-weight: 800;
+    margin: 0;
+}
+.travel-dest {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
 /*------------------------------------------ GALLERY */
 #gallery-section .section-hr {
     background-image: linear-gradient(to right, rgba(238, 232, 209, 0), rgba(238, 232, 209, 0.75), rgba(238, 232, 209, 0));
