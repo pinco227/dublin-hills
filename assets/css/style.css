@@ -560,6 +560,13 @@ section {
     background-image: linear-gradient(to right, rgba(160, 160, 116, 0), rgba(160, 160, 116, 0.75), rgba(160, 160, 116, 0));
 }
 
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
 .spec-name {
     font-weight: bold;
     text-align: right;

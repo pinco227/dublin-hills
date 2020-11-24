@@ -130,6 +130,7 @@ Website's features are presented in an importance order.
   * [Bootstrap4](https://getbootstrap.com/) was used for its great responsivness and styling classes.
   * [Font Awesome](https://fontawesome.com/) icons were used for aesthetic and [UX](#ux) improvements.
   * [Google Fonts](https://fonts.google.com/) was use as the main font resource.
+  * [Google Maps API](https://console.cloud.google.com/google/maps-apis/) for displaying the map on the site section. The Maps JavaScript API was used for this project following this [documentation](https://developers.google.com/maps/documentation/javascript/adding-a-google-map#maps_add_map-javascript).
   * [lightGallery](http://sachinchoolur.github.io/lightGallery/) plugin was used for photo galleries.
 - Version Control
   * [Git](https://git-scm.com/) as Version Control System.
@@ -185,7 +186,7 @@ _[to be completed]_
 ## Credits
 - ### Content
   - [HSQ.ie](http://www.hsq.ie/) as a general content inspiration.
-  - [Abbotfield.ie](http://www.abbottfield.ie/) for site and house specifications, for house plans and for lugmore house photos.
+  - [Abbotfield.ie](http://www.abbottfield.ie/) for site and house specifications, for description on site section, for house plans and for lugmore house photos.
   - [OldtownWalk.ie](https://www.oldtownwalk.ie/) for three rock and montpelier houses photos and site entrance photo.
   - [MeadowBankSwords.ie](http://meadowbankswords.ie/) for site plan.
 - ### Media

@@ -236,17 +236,18 @@
                 <h2 class="section-heading site-heading-color">Site</h2>
                 <hr class="section-hr">
                 <div class="row">
-                    <div class="col">
-                        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga eligendi adipisci
-                            debitis nam
-                            quibusdam quaerat. Rem nam odit ad est sint tempora aliquam. Id culpa, autem nesciunt enim
-                            magnam veniam?</p>
+                    <div class="col-md-10 col-lg-8 offset-md-1 offset-lg-2">
+                        <!-- CREDIT CONTENT -->
+                        <!-- http://www.abbottfield.ie/ -->
+                        <p class="lead text-center">This is a unique development of well designed homes set on planted
+                            grounds with
+                            generous open space, which further adds
+                            to the appeal of Dublin Hills.</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-10 col-lg-8 offset-md-1 offset-lg-2">
-                        <img src="https://via.placeholder.com/760x150.jpg?text=View+from+above" alt="Site Photo"
-                            class="img-fluid">
+                        <div id="map"></div>
                     </div>
                 </div>
                 <!-- Site Plan -->
@@ -688,10 +689,31 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.10.0/js/lightgallery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB85eRNUOSiQhXFvGkflB_tS5zud01dRAc&map_ids=ba9f814d381999a9&callback=initMap&libraries=&v=weekly"
+        defer></script>
     <script>
+        // Initialize the gallery
         $('#site-gallery').lightGallery({
             selector: '.item'
         });
+
+        // Initialize and add the map
+        function initMap() {
+            // The location of Dublin Hills
+            const dhills = { lat: 53.259, lng: -6.251 };
+            // The map, centered at Dublin Hills
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 13,
+                center: dhills,
+                mapId: 'ba9f814d381999a9'
+            });
+            // The marker, positioned at Dublin Hills
+            const marker = new google.maps.Marker({
+                position: dhills,
+                map: map,
+            });
+        }
     </script>
 </body>
 
