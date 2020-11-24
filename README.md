@@ -141,6 +141,7 @@ Website's features are presented in an importance order.
 - Media
   * [Inkscape](https://inkscape.org/) for creating the logo.
   * [Photopea](https://www.photopea.com/) online photo editor tool for creating the BER rating labels and for editing the site plan and the site entrance sign.
+  * [Canva](https://www.canva.com/tools/logo-maker-q1/) for creating the 3 contact card logos.
 - Other
   * [Colormind.io](http://colormind.io/bootstrap/) as a tool for color palette testing.
 
