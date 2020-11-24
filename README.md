@@ -147,11 +147,11 @@ Website's features are presented in an importance order.
 ## Testing
 - ### Encountered Issues
   - video background on callout section would not autoplay on mobile, especially on android devices.
-      - fixed by adding these attributes to ```autoplay loop muted``` acording to **[this article](https://developers.google.com/web/updates/2016/07/autoplay)** of **Sam Dutton** and **[this repo](https://github.com/googlechrome/samples/tree/gh-pages/muted-autoplay)** of **Google Chrome**.
+      - **FIXED** by adding these attributes to ```autoplay loop muted``` acording to **[this article](https://developers.google.com/web/updates/2016/07/autoplay)** of **Sam Dutton** and **[this repo](https://github.com/googlechrome/samples/tree/gh-pages/muted-autoplay)** of **Google Chrome**.
       - for iOS10 devices I have used the ```playsinline``` video attribute.
       - This feature is still not supported by all browsers/devices. For this I have provided a fallback which consists of a static background image as follows: ```background: url('../images/hero-img.jpg') no-repeat;```
   - video background on callout section would not position on center of the screen.
-    - fixed by adding the following css code to the ```.cta-video``` selector: 
+    - **FIXED** by adding the following css code to the ```.cta-video``` selector: 
         ```
         top: 50%;
         left: 50%;
@@ -159,7 +159,7 @@ Website's features are presented in an importance order.
         ```
         according to **[this article](http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video)** by **Dudley Storey**.
   - navbar would cover the title when navigating through the landing page using the nav links.
-    - fixed by adding the following css code that offsets the target:
+    - **FIXED** by adding the following css code that offsets the target:
         ```
         :target:before {
             content: "";
@@ -179,6 +179,11 @@ Website's features are presented in an importance order.
         <span id="features" class="invisible"></span>
         ```
         this will get targeted by the ```#features``` nav link as described in **[this article](https://spigotdesign.com/smooth-scroll-offset-anchor-links-with-css/)**.
+  - collapsible menu would not collapse when clicking on link to navigate through landing page's sections. This requires user to tap 3 times to get to the desired section:
+    1. click on "hamburger" button to expand the menu.
+    2. click on desired link.
+    3. click again on "hamburger" button to toggle the menu that covers the top of the section.
+    - **FIXED** by adding this code to the ```.nav-item``` list element: ``` data-toggle="collapse" data-target="#menu"```. It was added to the list element and not to the anchor, otherwise it would disable the anchor funcionality.
 
 ## Deployment
 _[to be completed]_
