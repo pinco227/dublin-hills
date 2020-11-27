@@ -224,8 +224,10 @@ section {
 
 .nav-link {
     font-family: 'EB Garamond', serif;
-    font-weight: 600;
-    letter-spacing: 0.1rem;
+    font-weight: 800;
+    letter-spacing: 0.12rem;
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .navbar-toggler {
@@ -233,6 +235,7 @@ section {
     color: #3C5830;
     border: none;
     padding: 0;
+    margin-right: 0.3rem;
 }
 
 .navbar-toggler:focus, .navbar-toggler:active {
@@ -279,7 +282,13 @@ section {
 
 .cta-container .lead {
     font-size: 150%;
-    text-shadow: 2px 2px 3px #7E6235;
+}
+
+.badge-cta {
+    background-color: rgba(238, 232, 209, 0.65);
+    color: #2a3d21;
+    font-weight: 600;
+    text-shadow: none;
 }
 
 .cta-container hr {
@@ -864,7 +873,7 @@ section {
     /* --------- CALLOUT */
     .cta-container {
         font-size: 100%;
-        top: 2rem;
+        top: 1.3rem;
     }
     .cta-container .lead {
         font-size: 120%;
@@ -874,5 +883,30 @@ section {
     }
     .btn-cta {
         font-size: 1rem;
+    }
+    .cta-scroll {
+        padding-bottom: 1rem;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 430px) {
+    /* --------- CALLOUT */
+    .cta-container {
+        top: 0.2rem;
+    }
+    .cta-container p {
+        margin-bottom: 0.4rem;
+    }
+    .cta-heading {
+        line-height: 2.5rem;
+    }
+    .cta-scroll {
+        padding-bottom: 0.2rem;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 300px) {
+    .cta-scroll {
+        display: none;
     }
 }
