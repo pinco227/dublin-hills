@@ -187,7 +187,42 @@ Website's features are presented in an importance order.
     - **FIXED** by adding this code to the ```.nav-item``` list element: ``` data-toggle="collapse" data-target="#menu"```. It was added to the list element and not to the anchor, otherwise it would disable the anchor funcionality.
 
 ## Deployment
-_[to be completed]_
+- ### GitHub Pages
+  The project was deployed to GitHub Pages using the following steps:
+  1. Log in to GitHub and locate the [Dublin Hills Repository](https://github.com/pinco227/dublin-hills).
+  2. At the top of the Repository, locate and click the "Settings" Button on the menu.
+  3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+  4. Under "Source", click the dropdown called "**None**" and select "**main**" branch.
+  5. The page will automatically refresh.
+  6. Scroll back down through the page to locate the now published [site link](https://pinco227.github.io/dublin-hills/) in the "GitHub Pages" section.
+- ### Forking the GitHub Repository
+  By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
+  1. Log in to GitHub and locate the [Dublin Hills Repository](https://github.com/pinco227/dublin-hills).
+  2. At the top right of the Repository just above the "Settings" Button on the menu, locate and click the "**Fork**" Button.
+  3. You should now have a copy of the original repository in your GitHub account.
+- ### Making a Local Clone
+  1. Log in to GitHub and locate the [Dublin Hills Repository](https://github.com/pinco227/dublin-hills).
+  2. At the top of the Repository just above the list of files, locate and click the "**Code**" dropdown.
+  3. To clone the repository using HTTPS, under "**Clone**", make sure "**HTTPS**" is selected and copy the link.
+  4. Open Git Bash.
+  5. Change the current working directory to the location where you want the cloned directory to be made.
+  6. Type ```git clone```, and then paste the URL you copied in Step 3.
+    ```
+    $ git clone https://github.com/pinco227/dublin-hills.git
+    ```
+  7. Press Enter. Your local clone will be created.
+    ```
+    $ git clone https://github.com/pinco227/dublin-hills.git
+    Cloning into 'dublin-hills'...
+    remote: Enumerating objects: 408, done.
+    remote: Counting objects: 100% (408/408), done.
+    remote: Compressing objects: 100% (258/258), done.
+    remote: Total 408 (delta 156), reused 368 (delta 116), pack-reused 0
+    Receiving objects: 100% (408/408), 24.92 MiB | 15.71 MiB/s, done.
+    Resolving deltas: 100% (156/156), done.
+    ```
+  Click [Here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+  
 
 ## Credits
 - ### Content
