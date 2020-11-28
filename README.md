@@ -2,7 +2,9 @@
 
 [Live website](https://pinco227.github.io/dublin-hills/)
 
-This is the presentation website for a new Housing Development that offers a good lifestyle support for families. The main goal is to get the interested user to book a viewing.
+This is the presentation website for a new Housing Development that offers a good lifestyle support for families. The main goal is to get the interested user to book a viewing. Dublin Hills is an educational project made to serve as a Milestone Project for the **Software Developer Diploma** programme of **Code Institute**.
+
+![Responsive Mockup](https://github.com/pinco227/dublin-hills/blob/main/docs/responsive-mockup.png)
 
 ## Table of Contents
   - [UX](#ux)
@@ -63,17 +65,17 @@ This is the presentation website for a new Housing Development that offers a goo
 - ### Skeleton
   - ### Initial wireframes
     - Landing Page:
-      - [mobile](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/index-mobile.png)
-      - [tablet](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/index-tablet.png)
-      - [desktop](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/index-desktop.png)
+      - [mobile](https://github.com/pinco227/dublin-hills/blob/main/docs/wireframes/index-mobile.png)
+      - [tablet](https://github.com/pinco227/dublin-hills/blob/main/docs/wireframes/index-tablet.png)
+      - [desktop](https://github.com/pinco227/dublin-hills/blob/main/docs/wireframes/index-desktop.png)
     - House Details Page:
-      - [mobile](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/house-mobile.png)
-      - [tablet](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/house-tablet.png)
-      - [desktop](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/house-desktop.png)
+      - [mobile](https://github.com/pinco227/dublin-hills/blob/main/docs/wireframes/house-mobile.png)
+      - [tablet](https://github.com/pinco227/dublin-hills/blob/main/docs/wireframes/house-tablet.png)
+      - [desktop](https://github.com/pinco227/dublin-hills/blob/main/docs/wireframes/house-desktop.png)
     - CTA Modal Form:
-      - [mobile](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/form-mobile.png)
-      - [tablet](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/form-tablet.png)
-      - [desktop](https://github.com/pinco227/dublin-hills/blob/main/assets/docs/wireframes/form-desktop.png)
+      - [mobile](https://github.com/pinco227/dublin-hills/blob/main/docs/wireframes/form-mobile.png)
+      - [tablet](https://github.com/pinco227/dublin-hills/blob/main/docs/wireframes/form-tablet.png)
+      - [desktop](https://github.com/pinco227/dublin-hills/blob/main/docs/wireframes/form-desktop.png)
   - ### Improvements
     - #### Landing Page:
       [to be completed]
