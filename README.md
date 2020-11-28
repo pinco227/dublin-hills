@@ -168,6 +168,7 @@ Website's features are presented in an importance order.
   * [Canva](https://www.canva.com/tools/logo-maker-q1/) for creating the 3 contact card logos.
 - Other
   * [Colormind.io](http://colormind.io/bootstrap/) as a tool for color palette testing.
+  * [BrowserLing](https://www.browserling.com/) for cross-browser testing.
 
 ## Testing
 - ### Encountered Issues
@@ -283,9 +284,9 @@ Website's features are presented in an importance order.
     > ### Browser test
     > The website was tested on Google Chrome, Firefox, Safari, Edge, Internet Explorer. Browsers versions were all up to date. Further testing was done using [BrowserLing](https://www.browserling.com/) and the website was tested for android 7 native browser. Results were consistent. Conclusion: the website is browser-cross compatible.
 
-- ### Testing accessibility
 - ### Testing performance
 - ### Validation
+- ### Testing accessibility
 - ### Further testing
 
 ## Deployment
