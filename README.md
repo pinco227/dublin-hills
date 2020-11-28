@@ -238,33 +238,51 @@ Website's features are presented in an importance order.
     - to find information about career opportunities around the area.
     > One of the features is the **Location** which offers a great career opportunity, businesses and industries being at a short travel distance from the living area.
 - ### Testing functionality
-  - Checking for broken links
-  > ### Landing Page
-  > Starting from top to bottom, left to right, click on every button, link, toggle to check for expected action.
-  > - top navigation fully functional including the brand title and logo.
-  > - Hero: CTA button toggles the modal form. The **X** button and clicking outsite the modal container closes the modal.
-  > - Modal form: submit button is submiting the form.
-  > - Features: Download brochure button opens the pdf in a new tab.
-  > - House types: every **view details** button opens the right house page in the same tab.
-  > - Gallery: click on every photo opens the lightGallery showing the correct photo.
-  > - LightGallery: click on arrows/swipe left-right/mouse drag/mouse scroll navigates through photos. The **X** button and clicking anywhere outside the photo closes the lightGallery.
-  > - Contact: submit button of the contact form submits the form.
-  > - Footer: CTA button opens the modal form. Social media buttons open each the expected link on a new tab.
+    > ### Checking for broken links
+    > #### Landing Page
+    > Starting from top to bottom, left to right, click on every button, link, toggle to check for expected action.
+    > - top navigation fully functional including the brand title and logo.
+    > - Hero: CTA button toggles the modal form. The **X** button and clicking outsite the modal container closes the modal.
+    > - Modal form: submit button is submiting the form.
+    > - Features: Download brochure button opens the pdf in a new tab.
+    > - House types: every **view details** button opens the right house page in the same tab.
+    > - Gallery: click on every photo opens the lightGallery showing the correct photo.
+    > - LightGallery: click on arrows/swipe left-right/mouse drag/mouse scroll navigates through photos. The **X** button and clicking anywhere outside the photo closes the lightGallery.
+    > - Contact: submit button of the contact form submits the form.
+    > - Footer: CTA button opens the modal form. Social media buttons open each the expected link on a new tab.
+    > #### Montpelier, Three Rock, Lugmore pages
+    > Starting from top to bottom, left to right, click on every button, link, toggle to check for expected action.
+    > - top navigation fully functional including the brand title and logo. Every link goes to expected section of the landing page in the same tab.
+    > - Presentation: CTA button opens the modal form. The **X** button and clicking outsite the modal container closes the modal. Download brochure button opens the pdf in a new tab.
+    > - Modal form: submit button is submiting the form.
+    > - Plans, Gallery: click on every photo opens the lightGallery showing the correct photo.
+    > - LightGallery: click on arrows/swipe left-right/mouse drag/mouse scroll navigates through photos. The **X** button and clicking anywhere outside the photo closes the lightGallery for both the plans and the gallery section.
+    > - Other Homes: every **view details** button opens the right house page in the same tab.
+    > - Footer: CTA button opens the modal form. Social media buttons open each the expected link on a new tab.
 
-  > ### Montpelier, Three Rock, Lugmore pages
-  > Starting from top to bottom, left to right, click on every button, link, toggle to check for expected action.
-  > - top navigation fully functional including the brand title and logo. Every link goes to expected section of the landing page in the same tab.
-  > - Presentation: CTA button opens the modal form. The **X** button and clicking outsite the modal container closes the modal. Download brochure button opens the pdf in a new tab.
-  > - Modal form: submit button is submiting the form.
-  > - Plans, Gallery: click on every photo opens the lightGallery showing the correct photo.
-  > - LightGallery: click on arrows/swipe left-right/mouse drag/mouse scroll navigates through photos. The **X** button and clicking anywhere outside the photo closes the lightGallery for both the plans and the gallery section.
-  > - Other Homes: every **view details** button opens the right house page in the same tab.
-  > - Footer: CTA button opens the modal form. Social media buttons open each the expected link on a new tab.
-  - Testing browser back/forward action
-  > Navigation: browser back and forward and mobile back tap acts as expected throughout. Although, when modal or lightGallery are opened, the back click/tap targets the url and it doesn't toggle/close the modal. In order to function like this, it requires further Javascript coding. This is left to be implemented.
+    > ### Testing browser back/forward action
+    > Navigation: browser back and forward and mobile back tap acts as expected throughout. Although, when modal or lightGallery are opened, the back click/tap targets the url and it doesn't toggle/close the modal. In order to function like this, it requires further Javascript coding. This is left to be implemented.
 
+    > ### Testing form validation
+    > - CTA modal form: the form was tested for validation by trying to submit first with no field filled and then by filling the fields one by one. Result as expected, all fields asked for input. The email field asks for email format with ```@``` and the date and time fields cannot be filled differently.
+    > - Contact form: the form was tested for validation by following the same process as above. Result as expected, the required fields asked for input (first name, last name, email, subject, message). The email field asks for email format with ```@```.
 
 - ### Testing compatibility
+    > ### Responsiveness
+    > Using DevTools and different device sizes such as mobile and tablet, the website was tested for any posible screen size combination and orientation. No issues found. Site is size compatible.
+
+    > ### OS test
+    > #### Desktop
+    > The website was tested on Ubuntu 20.04, Windows 7 and Windows 10 systems. Result as expected, desktop system-cross compatible.
+    > #### Mobile
+    > The website was tested on Android 6, Android 9, Android 10 and iOS 14 systems. Result as expected, mobile system-cross compatible.
+
+    > ### Devices test
+    > The website was tested on ASUS 17" notebook, ACER 17" notebook, Huawei P30 PRO, Huawei P20 PRO, Huawei P10, iPhone 11, Lenovo Yoga Tab. The result was consistent, website is platform-cross compatible.
+
+    > ### Browser test
+    > The website was tested on Google Chrome, Firefox, Safari, Edge, Internet Explorer. Browsers versions were all up to date. Further testing was done using [BrowserLing](https://www.browserling.com/) and the website was tested for android 7 native browser. Results were consistent. Conclusion: the website is browser-cross compatible.
+
 - ### Testing accessibility
 - ### Testing performance
 - ### Validation
