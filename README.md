@@ -167,6 +167,7 @@ Website's features are presented in an importance order.
 
 ## Testing
 - ### Encountered Issues
+    Issues found during the building process:
   - video background on callout section would not autoplay on mobile, especially on android devices.
       - **FIXED** by adding these attributes to ```autoplay loop muted``` acording to **[this article](https://developers.google.com/web/updates/2016/07/autoplay)** of **Sam Dutton** and **[this repo](https://github.com/googlechrome/samples/tree/gh-pages/muted-autoplay)** of **Google Chrome**.
       - for iOS10 devices I have used the ```playsinline``` video attribute.
@@ -205,6 +206,33 @@ Website's features are presented in an importance order.
     2. click on desired link.
     3. click again on "hamburger" button to toggle the menu that covers the top of the section.
     - **FIXED** by adding this code to the ```.nav-item``` list element: ``` data-toggle="collapse" data-target="#menu"```. It was added to the list element and not to the anchor, otherwise it would disable the anchor funcionality.
+- ### Testing user stories
+  - #### As a user I need:
+    - to easily understand the purpose of the page.
+    > As the user lands on the website, the first thing it shows up is a big heading which briefly describe the websites purpose. 
+    - to easily navigate throughout the content.
+    > The navigation bar is fixed to top which means it is visible and accessible at all times on any device.
+    - to first be able to see the information on my mobile and then share it with peers on a bigger screen.
+    > The project is build in a mobile-first manner which means that every piece of information is design to be easily displayed on mobile first and expanded on a bigger screen whitout changing the functionality.
+    - to find detailed information about the desired product.
+    > All the information is structured in an importance order. For further details there are pages implemented for each of the main focus content, the houses. The website presents an option of downloading a pdf brochure for each of the house and for the site itself. The download button are big and visible, placed in focus areas.
+    - to find information about who the business is and where to find them, this will give me trust.
+    > There is a section dedicated for this purpose. The contact section gives information about all the contributors of the business and it is easily accessible from the navigation menu or by scrolling down the bottom of the landing page. Information about the developer is presented on the footer of the website on every available page.
+    - to be able to contact the business and its contributors.
+    > - If the contact purpose is to arrange a viewing, there is a call to action button on top of the landing page, on the footer of every page and on the top of each house page. This will toggle a modal form for booking a viewing. At this stage the business goal has been fulfilled.
+    > - The contact section offers a contact form as well. This form can be used to contact the developer directly by email.
+  - #### As a parent I need:
+    - to find information about the safety.
+    - to find information about child services within and around the estate/area.
+    - to find information about leisure and activities within and around the estate.
+    > Every piece of this required information is listed and described in the features section of the landing page, immediately under the main call to action section.
+    - to find information about why should I choose to live here.
+    > The first section offers brief details about the most important features of the estate. The house types section shows a photo for each house and the best features of each house. On each house page are presented in detail every feature and visually represented the most appealing details as a gallery of photos. Further details can be found navigating through the website. All the content is designed to be appealing and inviting.
+  - #### As a worker I need:
+    - to find information about transportation.
+    > On the site section, one of the subsections is the **travel times**. There are listed few of the main destinations and the required time to travel to each.
+    - to find information about career opportunities around the area.
+    > One of the features is the **Location** which offers a great career opportunity, businesses and industries being at a short travel distance from the living area.
 
 ## Deployment
 - ### GitHub Pages
