@@ -4,7 +4,7 @@
 
 This is the presentation website for a new Housing Development that offers a good lifestyle support for families. The main goal is to get the interested user to book a viewing. Dublin Hills is an educational project made to serve as a Milestone Project for the **Software Developer Diploma** programme of **Code Institute**.
 
-![Responsive Mockup](https://github.com/pinco227/dublin-hills/blob/main/docs/responsive-mockup.png)
+[![Responsive Mockup](https://github.com/pinco227/dublin-hills/blob/main/docs/responsive-mockup.png)](http://ami.responsivedesign.is/?url=https://pinco227.github.io/dublin-hills)
 
 ## Table of Contents
   - [UX](#ux)
@@ -243,4 +243,7 @@ Website's features are presented in an importance order.
   - [Spigot Design](https://spigotdesign.com/smooth-scroll-offset-anchor-links-with-css/) for anchor offsetting [issue](#encountered-issues).
 
 ## Aknowledgements
-_[to be completed]_
+  - **My Mentor**: Nishant Kumar for continuous helpful feedback.
+  - **Tutor** support at Code Institute for their support.
+  - **Slack** Code Institute community for feedback.
+  - **Peer student**: [Alexandru Valentin Grapa](https://github.com/alexandruvalentin) for helpful feedback along the coding progress and for help with iPhone device testing.
