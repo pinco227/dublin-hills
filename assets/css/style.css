@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merienda:wght@400;700&display=swap');
 
 /*  COLORS
@@ -74,6 +81,8 @@ section {
 .section-hr {
     border: 0;
     height: 2px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(160, 160, 116, 0)), color-stop(rgba(160, 160, 116, 0.75)), to(rgba(160, 160, 116, 0)));
+    background-image: -o-linear-gradient(left, rgba(160, 160, 116, 0), rgba(160, 160, 116, 0.75), rgba(160, 160, 116, 0));
     background-image: linear-gradient(to right, rgba(160, 160, 116, 0), rgba(160, 160, 116, 0.75), rgba(160, 160, 116, 0));
     width: 50%;
     margin-bottom: 2rem;
@@ -82,7 +91,8 @@ section {
 .form-control:focus {
     border-color: #3C5830;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(60, 88, 48,.25);
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(60, 88, 48,.25);
+            box-shadow: 0 0 0 0.2rem rgba(60, 88, 48,.25);
 }
 
 /*------------------------------------------ COLORS */
@@ -194,7 +204,8 @@ section {
 /*------------------------------------------ HEADER */
 .navbar {
     border-bottom: 4px solid #A0A074;
-    box-shadow: 0px 2px 10px #3C5830;
+    -webkit-box-shadow: 0px 2px 10px #3C5830;
+            box-shadow: 0px 2px 10px #3C5830;
 }
 
 .navbar-brand {
@@ -294,6 +305,8 @@ section {
 .cta-container hr {
     border: 0;
     height: 2px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(238, 232, 209, 0)), color-stop(rgba(238, 232, 209, 0.75)), to(rgba(238, 232, 209, 0)));
+    background-image: -o-linear-gradient(left, rgba(238, 232, 209, 0), rgba(238, 232, 209, 0.75), rgba(238, 232, 209, 0));
     background-image: linear-gradient(to right, rgba(238, 232, 209, 0), rgba(238, 232, 209, 0.75), rgba(238, 232, 209, 0));
     width: 50%;
 }
@@ -301,7 +314,8 @@ section {
 .btn-cta {
     background-color: #3C5830;
     border-color: #2a3d21;
-    box-shadow: 2px 2px 3px #3C5830;
+    -webkit-box-shadow: 2px 2px 3px #3C5830;
+            box-shadow: 2px 2px 3px #3C5830;
     text-transform: uppercase;
     font-weight: bold;
     color: #F4F0DE;
@@ -310,7 +324,8 @@ section {
 .btn-cta:hover, .btn-cta:active, .btn-cta:focus {
     background-color: #507c3c;
     border-color: #3C5830;
-    box-shadow: 3px 3px 7px #3C5830;
+    -webkit-box-shadow: 3px 3px 7px #3C5830;
+            box-shadow: 3px 3px 7px #3C5830;
     color: #fff;
     outline: none;
 }
@@ -325,7 +340,8 @@ section {
     color: #F4F0DE;
     font-size: 1.5rem;
     padding-bottom: 2rem;
-    animation: MoveUpDown 1s linear infinite;
+    -webkit-animation: MoveUpDown 1s linear infinite;
+            animation: MoveUpDown 1s linear infinite;
 }
 
 .cta-scroll a{
@@ -333,6 +349,14 @@ section {
 }
 
 /* CREDIT: https://stackoverflow.com/questions/35990445/how-to-move-a-div-up-and-down-infinitely-in-css3 */
+@-webkit-keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 1rem;
+  }
+}
 @keyframes MoveUpDown {
   0%, 100% {
     bottom: 0;
@@ -359,11 +383,14 @@ section {
     z-index: -100;
     background: url('../images/hero-img.jpg') no-repeat;
     background-size: cover;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     transform: translate(-50%, -50%);
     -ms-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
+    -webkit-transition: 1s opacity;
+    -o-transition: 1s opacity;
     transition: 1s opacity;
     opacity: 0.4;
 }
@@ -378,7 +405,9 @@ section {
 }
 
 #cta-form .modal-header {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 #cta-form .close {
@@ -458,6 +487,8 @@ section {
 
 /*------------------------------------------ HOMES */
 #homes-section .section-hr {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(238, 232, 209, 0)), color-stop(rgba(238, 232, 209, 0.75)), to(rgba(238, 232, 209, 0)));
+    background-image: -o-linear-gradient(left, rgba(238, 232, 209, 0), rgba(238, 232, 209, 0.75), rgba(238, 232, 209, 0));
     background-image: linear-gradient(to right, rgba(238, 232, 209, 0), rgba(238, 232, 209, 0.75), rgba(238, 232, 209, 0));
 }
 
@@ -472,7 +503,8 @@ section {
 .btn-house {
     background-color: #7E6235;
     border-color: #7E6235;
-    box-shadow: 2px 2px 3px #7E6235;
+    -webkit-box-shadow: 2px 2px 3px #7E6235;
+            box-shadow: 2px 2px 3px #7E6235;
     text-transform: uppercase;
     font-weight: bold;
     color: #F4F0DE;
@@ -481,7 +513,8 @@ section {
 .btn-house:hover, .btn-house:active, .btn-house:focus {
     background-color: #B8873A;
     border-color: #7E6235;
-    box-shadow: 3px 3px 7px #7E6235;
+    -webkit-box-shadow: 3px 3px 7px #7E6235;
+            box-shadow: 3px 3px 7px #7E6235;
     color: #fff;
     outline: none;
 }
@@ -489,6 +522,8 @@ section {
 /*------------------------------------------ HOUSE PAGES */
 /* ------------ Presentation section */
 #house-presentation .section-hr {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(184, 135, 58, 0)), color-stop(rgba(184, 135, 58, 0.75)), to(rgba(184, 135, 58, 0)));
+    background-image: -o-linear-gradient(left, rgba(184, 135, 58, 0), rgba(184, 135, 58, 0.75), rgba(184, 135, 58, 0));
     background-image: linear-gradient(to right, rgba(184, 135, 58, 0), rgba(184, 135, 58, 0.75), rgba(184, 135, 58, 0));
 }
 
@@ -521,6 +556,8 @@ section {
 
 /* ------------ Gallery section */
 #house-gallery .section-hr {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(238, 232, 209, 0)), color-stop(rgba(238, 232, 209, 0.75)), to(rgba(238, 232, 209, 0)));
+    background-image: -o-linear-gradient(left, rgba(238, 232, 209, 0), rgba(238, 232, 209, 0.75), rgba(238, 232, 209, 0));
     background-image: linear-gradient(to right, rgba(238, 232, 209, 0), rgba(238, 232, 209, 0.75), rgba(238, 232, 209, 0));
 }
 
@@ -555,6 +592,8 @@ section {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     background-color: #fff;
+    -webkit-transition: 0.2s opacity;
+    -o-transition: 0.2s opacity;
     transition: 0.2s opacity;
     opacity: 1;
 }
@@ -566,6 +605,8 @@ section {
 
 /*------------------------------------------ SITE */
 #site-section .section-hr {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(160, 160, 116, 0)), color-stop(rgba(160, 160, 116, 0.75)), to(rgba(160, 160, 116, 0)));
+    background-image: -o-linear-gradient(left, rgba(160, 160, 116, 0), rgba(160, 160, 116, 0.75), rgba(160, 160, 116, 0));
     background-image: linear-gradient(to right, rgba(160, 160, 116, 0), rgba(160, 160, 116, 0.75), rgba(160, 160, 116, 0));
 }
 
@@ -596,7 +637,8 @@ section {
     height: 6rem;
     padding: 1.5rem 1.6rem;
     color: #F4F0DE;
-    box-shadow: 2px 2px 3px rgba(126, 98, 53,0.5);
+    -webkit-box-shadow: 2px 2px 3px rgba(126, 98, 53,0.5);
+            box-shadow: 2px 2px 3px rgba(126, 98, 53,0.5);
 }
 
 .travel-time {
@@ -650,6 +692,8 @@ section {
 
 /*------------------------------------------ GALLERY */
 #gallery-section .section-hr {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(238, 232, 209, 0)), color-stop(rgba(238, 232, 209, 0.75)), to(rgba(238, 232, 209, 0)));
+    background-image: -o-linear-gradient(left, rgba(238, 232, 209, 0), rgba(238, 232, 209, 0.75), rgba(238, 232, 209, 0));
     background-image: linear-gradient(to right, rgba(238, 232, 209, 0), rgba(238, 232, 209, 0.75), rgba(238, 232, 209, 0));
 }
 
@@ -683,6 +727,8 @@ section {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     background-color: #fff;
+    -webkit-transition: 0.2s opacity;
+    -o-transition: 0.2s opacity;
     transition: 0.2s opacity;
     opacity: 1;
 }
@@ -736,7 +782,8 @@ section {
 .btn-contact {
     background-color: #3C5830;
     border-color: #2a3d21;
-    box-shadow: 2px 2px 3px #3C5830;
+    -webkit-box-shadow: 2px 2px 3px #3C5830;
+            box-shadow: 2px 2px 3px #3C5830;
     text-transform: uppercase;
     font-weight: bold;
     color: #F4F0DE;
@@ -745,7 +792,8 @@ section {
 .btn-contact:hover, .btn-contact:active, .btn-contact:focus {
     background-color: #507c3c;
     border-color: #3C5830;
-    box-shadow: 3px 3px 7px #3C5830;
+    -webkit-box-shadow: 3px 3px 7px #3C5830;
+            box-shadow: 3px 3px 7px #3C5830;
     color: #fff;
     outline: none;
 }
@@ -784,7 +832,8 @@ section {
 .btn-cta2 {
     background-color: #F4F0DE;
     border-color: #EEE8D1;
-    box-shadow: 2px 2px 3px #16110a;    
+    -webkit-box-shadow: 2px 2px 3px #16110a;
+            box-shadow: 2px 2px 3px #16110a;    
     text-transform: uppercase;
     font-weight: bold;
     color: #2a3d21;
@@ -793,7 +842,8 @@ section {
 .btn-cta2:hover, .btn-cta2:active, .btn-cta2:focus {
     background-color: #EEE8D1;
     border-color: #F4F0DE;
-    box-shadow: 3px 3px 7px #16110a;
+    -webkit-box-shadow: 3px 3px 7px #16110a;
+            box-shadow: 3px 3px 7px #16110a;
     color: #B8873A;
     outline: none;
 }
@@ -807,14 +857,18 @@ section {
     text-align: center;
     color: #B8873A;
     background-color: #F4F0DE;
-    box-shadow: 2px 2px 3px #16110a;
+    -webkit-box-shadow: 2px 2px 3px #16110a;
+            box-shadow: 2px 2px 3px #16110a;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
     transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
     background: #3C5830;
     color: #F4F0DE;
-    box-shadow: 3px 3px 7px #16110a;
+    -webkit-box-shadow: 3px 3px 7px #16110a;
+            box-shadow: 3px 3px 7px #16110a;
 }
 
 /*------------------------------------------ MEDIA QUERIES */
@@ -869,7 +923,9 @@ section {
     }
 
     #copy-column .footer-heading {
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 }
 

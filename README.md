@@ -166,9 +166,15 @@ Website's features are presented in an importance order.
   * [Inkscape](https://inkscape.org/) for creating the logo.
   * [Photopea](https://www.photopea.com/) online photo editor tool for creating the BER rating labels and for editing the site plan and the site entrance sign.
   * [Canva](https://www.canva.com/tools/logo-maker-q1/) for creating the 3 contact card logos.
+  * [Adobe Photoshop Express](https://photoshop.adobe.com/resize) for quick resizing images for improving performance.
 - Other
   * [Colormind.io](http://colormind.io/bootstrap/) as a tool for color palette testing.
   * [BrowserLing](https://www.browserling.com/) for cross-browser testing.
+  * [Chrome Lighthouse](https://developers.google.com/web/tools/lighthouse) for performance, accessibility and best-practices audit.
+  * [a11y](https://color.a11y.com/) for accessibility colour contrast testing.
+  * [CSS Autoprefixe](https://autoprefixer.github.io/) for adding css vendor prefixes.
+  * [W3C Markup](https://validator.w3.org/) for markup code validation.
+  * [W3C CSS](https://jigsaw.w3.org/css-validator/validator#css) for css code validation.
 
 ## Testing
 - ### Encountered Issues
@@ -297,7 +303,13 @@ Website's features are presented in an importance order.
 
 - ### Testing accessibility
   > The accessibility was tested throughout the site using chrome lighthouse and [a11y contast cecker](https://color.a11y.com/Contrast/). The result are satisfying in both cases. When contrast was checked wit a11y tool, there were 3 issues displayed on the landing page. The first two issues are for the hero headings, as they are on an absolute position container overlayed on top of the video, the contrast checker tool cannot evaluate correctly. The third issue is with the Developer card from the contact section of the landing page and this has been a design choice and can be ignored. No contrast issues found on the house details page.
-- ### Validation
+- ### Code Validation
+  > ### HTML
+  > Html was tested and validated with [W3C Validator](https://validator.w3.org/). The results are satisfying on all pages. Two warnings are present in all pages about the use of headings throughout the page. These are no reason to worry and can be ignored as the headings are in place starting from top with ```h1``` and with every section with ```h2```.
+
+  > ### CSS
+  > CSS was validated with [W3C CSS](https://jigsaw.w3.org/css-validator/) by direct input. The results came with no error and only warnings about the vendor prefixes, which can be ignored.
+
 - ### Further testing
 
 ## Deployment
