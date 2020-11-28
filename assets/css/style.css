@@ -140,6 +140,9 @@ section {
     background-color: #F4F0DE;
 }
 
+.bg-color-error {
+    background-color: #CECEB1;
+}
 
 .navbar-brand-color {
     color: #7E6235;
@@ -199,6 +202,10 @@ section {
 
 .contact-subheading-color{
     color: #7E6235;
+}
+
+.error-heading-color {
+    color: #493722;
 }
 
 /*------------------------------------------ HEADER */
@@ -796,6 +803,17 @@ section {
             box-shadow: 3px 3px 7px #3C5830;
     color: #fff;
     outline: none;
+}
+
+/*------------------------------------------ 404 */
+#error i {
+    font-size: 5rem;
+    margin: 2rem;
+}
+
+#error p {
+    font-size: 200%;
+    margin: 2rem;
 }
 
 /*------------------------------------------ FOOTER */
