@@ -77,10 +77,20 @@ This is the presentation website for a new Housing Development that offers a goo
       - [tablet](https://github.com/pinco227/dublin-hills/blob/main/docs/wireframes/form-tablet.png)
       - [desktop](https://github.com/pinco227/dublin-hills/blob/main/docs/wireframes/form-desktop.png)
   - ### Improvements
-    - #### Landing Page:
-      [to be completed]
-    - #### House Details Page:
-      [to be completed]
+    - #### **Landing Page**:
+      - #### Features section:
+        - A main brochure pdf download button right under the section title.
+      - #### Site layout section:
+        - A short description about the location and a map before the site plan subsection.
+        - Travel times subsection after the site plan.
+        - General technical specifications subsection.
+        
+    - #### **House Details Page**:
+      - #### Presentation section:
+        - Book a viewing modal toggle button.
+        - A house brochure pdf download button.
+      - #### Other homes section:
+        - A new section representing the other two house on each house page instead of the go back button.
 - ### Design Choices
   - #### Colours
     [to be completed]
