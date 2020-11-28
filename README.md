@@ -283,18 +283,16 @@ Website's features are presented in an importance order.
 
     > ### Browser test
     > The website was tested on Google Chrome, Firefox, Safari, Edge, Internet Explorer. Browsers versions were all up to date. Further testing was done using [BrowserLing](https://www.browserling.com/) and the website was tested for android 7 native browser. Results were consistent. Conclusion: the website is browser-cross compatible.
-
-  #### Landing page Lighthouse result
-  ![LightHouse Landing Page Results](https://github.com/pinco227/dublin-hills/blob/main/docs/landing-lighthouse.png)
-  #### House details page Lighthouse result
-  ![LightHouse Landing Page Results](https://github.com/pinco227/dublin-hills/blob/main/docs/house-lighthouse.png)
+  
 - ### Testing performance
   > ### Landing page
+  > ![LightHouse Landing Page Results](https://github.com/pinco227/dublin-hills/blob/main/docs/landing-lighthouse.png)  
   > Performance has been tested using chrome lighthouse tool. The results are slightly different every time due to device performance and value estimation. The performance test results are satisfying as the landing page is heavy loaded with content, especially images and the hero video. See further details below...
   > ![LightHouse Landing Page Performance](https://github.com/pinco227/dublin-hills/blob/main/docs/landing-perf.png)
 
   > ### House details page
-  > On these pages the performance test values are higher then the landing page as these pages are no so heavy on content (less images and no video). See further details below...
+  > ![LightHouse Landing Page Results](https://github.com/pinco227/dublin-hills/blob/main/docs/house-lighthouse.png)  
+  > On these pages the performance test values are higher then the landing page as these pages are no so heavy on content (less images and no video). See further details below...  
   > ![LightHouse House Page Performance](https://github.com/pinco227/dublin-hills/blob/main/docs/house-lighthouse-perf.png)
 
 - ### Testing accessibility
