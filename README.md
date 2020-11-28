@@ -93,13 +93,21 @@ This is the presentation website for a new Housing Development that offers a goo
         - A new section representing the other two house on each house page instead of the go back button.
 - ### Design Choices
   - #### Colours
-    [to be completed]
+    ![Colour Palette](https://github.com/pinco227/dublin-hills/blob/main/docs/colour-palette.png)
+    - The colour palette consists of warm and welcoming colours inspired by the "Eye Comfort" reading mode in most of the screen devices.  
+    ![Colour Psychology Wheel](https://github.com/pinco227/dublin-hills/blob/main/docs/colour-wheel.jpg)  
+    - According to [The Psychology of Color](https://www.toptal.com/designers/ux/color-in-ux), the chosen colours represent desire, cheerfulness, stimulation and comfort.
+    - The 60-30-10 Rule was also taken into consideration when building the project. The light shades which are used mostly for background are considered neutral and makes up to 60% of the palette. The dark shades are complementary and makes up to 30% while the accent colours completes the remaining 10% of the design.
   - #### Typography
-    [to be completed]
-  - #### Images
-    [to be completed]
-  - #### Icons
-    [to be completed]
+    There are two fonts used throughout the project, both with a ```serif``` fallback. These font-faces inspire classiness and elegance:
+    - [EB Garamond](https://fonts.google.com/specimen/EB+Garamond?query=eb+garamond) is used as a general font.
+    - [Merienda](https://fonts.google.com/specimen/Merienda?query=Merienda) is used for brand text, footer headings and all h1 and h2 headings in the project.
+  - #### Media
+    - The main call to action section is using an attractive video as background which inspires to family, happiness and joy and it has a photo background as a fallback for devices that are not compatible with autoplay videos and for the cases when the video is not loaded for any reason. The fallback image is a stop-frame of the video.
+    - The rest of the images used throughout the project are in relation with they're containing section.
+    - All images are sized and compressed for the best UX flow.
+  - #### Iconography
+    - Icons are used throughout the project to help user understand more efficiently the meaning of the content. They are a very good asset to improve UX.
 
 ## Features
 Website's features are presented in an importance order.
