@@ -3,6 +3,7 @@
 This is the presentation website for a new Housing Development that offers a good lifestyle support for families. The main goal is to get the interested user to book a viewing. Dublin Hills is an educational project made to serve as a Milestone Project for the **Software Developer Diploma** programme of **Code Institute**.
 
 ## Table of Contents
+  - [Demo](#demo)
   - [UX](#ux)
     - [Business Goals](#business-goals)
     - [User Goals](#users-goals)
@@ -17,6 +18,12 @@ This is the presentation website for a new Housing Development that offers a goo
   - [Testing](#testing)
       - [Encountered Issues](#encountered-issues)
       - [Testing User Stories](#testing-user-stories)
+      - [Testing Functionality](#testing-functionality)
+      - [Testing Compatibility](#testing-compatibility)
+      - [Testing Performance](#testing-performance)
+      - [Testing Accessibility](#testing-accessibility)
+      - [Code Validation](#code-validation)
+      - [Further Testing](#further-testing)
   - [Deployment](#deployment)
   - [Credits](#credits)
   - [Aknowledgements](#aknowledgements)
@@ -175,6 +182,8 @@ Website's features are presented in an importance order.
   * [CSS Autoprefixe](https://autoprefixer.github.io/) for adding css vendor prefixes.
   * [W3C Markup](https://validator.w3.org/) for markup code validation.
   * [W3C CSS](https://jigsaw.w3.org/css-validator/validator#css) for css code validation.
+  * [W3C Spell Checker](https://www.w3.org/2002/01/spellchecker) for checking the spelling.
+  * [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) chrome extension for overflow testing.
 
 ## Testing
 - ### Encountered Issues
@@ -274,7 +283,7 @@ Website's features are presented in an importance order.
     > - CTA modal form: the form was tested for validation by trying to submit first with no field filled and then by filling the fields one by one. Result as expected, all fields asked for input. The email field asks for email format with ```@``` and the date and time fields cannot be filled differently.
     > - Contact form: the form was tested for validation by following the same process as above. Result as expected, the required fields asked for input (first name, last name, email, subject, message). The email field asks for email format with ```@```.
 
-- ### Testing compatibility
+- ### Testing Compatibility
     > ### Responsiveness
     > Using DevTools and different device sizes such as mobile and tablet, the website was tested for any posible screen size combination and orientation. No issues found. Site is size compatible.
 
@@ -290,7 +299,7 @@ Website's features are presented in an importance order.
     > ### Browser test
     > The website was tested on Google Chrome, Firefox, Safari, Edge, Internet Explorer. Browsers versions were all up to date. Further testing was done using [BrowserLing](https://www.browserling.com/) and the website was tested for android 7 native browser. Results were consistent. Conclusion: the website is browser-cross compatible.
   
-- ### Testing performance
+- ### Testing Performance
   > ### Landing page
   > ![LightHouse Landing Page Results](https://github.com/pinco227/dublin-hills/blob/main/docs/landing-lighthouse.png)  
   > Performance has been tested using chrome lighthouse tool. The results are slightly different every time due to device performance and value estimation. The performance test results are satisfying as the landing page is heavy loaded with content, especially images and the hero video. See further details below...
@@ -298,10 +307,10 @@ Website's features are presented in an importance order.
 
   > ### House details page
   > ![LightHouse Landing Page Results](https://github.com/pinco227/dublin-hills/blob/main/docs/house-lighthouse.png)  
-  > On these pages the performance test values are higher then the landing page as these pages are no so heavy on content (less images and no video). See further details below...  
+  > On these pages the performance test values are higher then the landing page as these pages are not so heavy on content (less images and no video). See further details below...  
   > ![LightHouse House Page Performance](https://github.com/pinco227/dublin-hills/blob/main/docs/house-lighthouse-perf.png)
 
-- ### Testing accessibility
+- ### Testing Accessibility
   > The accessibility was tested throughout the site using chrome lighthouse and [a11y contast cecker](https://color.a11y.com/Contrast/). The result are satisfying in both cases. When contrast was checked wit a11y tool, there were 3 issues displayed on the landing page. The first two issues are for the hero headings, as they are on an absolute position container overlayed on top of the video, the contrast checker tool cannot evaluate correctly. The third issue is with the Developer card from the contact section of the landing page and this has been a design choice and can be ignored. No contrast issues found on the house details page.
 - ### Code Validation
   > ### HTML
@@ -310,7 +319,12 @@ Website's features are presented in an importance order.
   > ### CSS
   > CSS was validated with [W3C CSS](https://jigsaw.w3.org/css-validator/) by direct input. The results came with no error and only warnings about the vendor prefixes, which can be ignored.
 
-- ### Further testing
+- ### Further Testing
+  > ### Overflow
+  > Every page was tested for overflow by using the [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) chrome extension to highlight the elements margins.
+
+  > ### Spelling
+  > Spelling throughout the website was checked using [W3C Spell Checker](https://www.w3.org/2002/01/spellchecker). The results are satisfying. The only spelling errors are actually technical names and UK-US english differences such as ```centre - center```.
 
 ## Deployment
 - ### GitHub Pages
