@@ -1,10 +1,6 @@
 # ![logo](https://github.com/pinco227/dublin-hills/blob/main/assets/images/logo-small.png) Dublin Hills
 
-[Live website](https://pinco227.github.io/dublin-hills/)
-
 This is the presentation website for a new Housing Development that offers a good lifestyle support for families. The main goal is to get the interested user to book a viewing. Dublin Hills is an educational project made to serve as a Milestone Project for the **Software Developer Diploma** programme of **Code Institute**.
-
-[![Responsive Mockup](https://github.com/pinco227/dublin-hills/blob/main/docs/responsive-mockup.png)](http://ami.responsivedesign.is/?url=https://pinco227.github.io/dublin-hills)
 
 ## Table of Contents
   - [UX](#ux)
@@ -19,9 +15,17 @@ This is the presentation website for a new Housing Development that offers a goo
   - [Features](#features)
   - [Technologies used](#technologies-used)
   - [Testing](#testing)
+      - [Encountered Issues](#encountered-issues)
+      - [Testing User Stories](#testing-user-stories)
   - [Deployment](#deployment)
   - [Credits](#credits)
   - [Aknowledgements](#aknowledgements)
+
+## Demo
+
+### [Live website](https://pinco227.github.io/dublin-hills/)
+
+[![Responsive Mockup](https://github.com/pinco227/dublin-hills/blob/main/docs/responsive-mockup.png)](http://ami.responsivedesign.is/?url=https://pinco227.github.io/dublin-hills)
 
 ## UX
 
@@ -233,6 +237,38 @@ Website's features are presented in an importance order.
     > On the site section, one of the subsections is the **travel times**. There are listed few of the main destinations and the required time to travel to each.
     - to find information about career opportunities around the area.
     > One of the features is the **Location** which offers a great career opportunity, businesses and industries being at a short travel distance from the living area.
+- ### Testing functionality
+  - Checking for broken links
+  > ### Landing Page
+  > Starting from top to bottom, left to right, click on every button, link, toggle to check for expected action.
+  > - top navigation fully functional including the brand title and logo.
+  > - Hero: CTA button toggles the modal form. The **X** button and clicking outsite the modal container closes the modal.
+  > - Modal form: submit button is submiting the form.
+  > - Features: Download brochure button opens the pdf in a new tab.
+  > - House types: every **view details** button opens the right house page in the same tab.
+  > - Gallery: click on every photo opens the lightGallery showing the correct photo.
+  > - LightGallery: click on arrows/swipe left-right/mouse drag/mouse scroll navigates through photos. The **X** button and clicking anywhere outside the photo closes the lightGallery.
+  > - Contact: submit button of the contact form submits the form.
+  > - Footer: CTA button opens the modal form. Social media buttons open each the expected link on a new tab.
+
+  > ### Montpelier, Three Rock, Lugmore pages
+  > Starting from top to bottom, left to right, click on every button, link, toggle to check for expected action.
+  > - top navigation fully functional including the brand title and logo. Every link goes to expected section of the landing page in the same tab.
+  > - Presentation: CTA button opens the modal form. The **X** button and clicking outsite the modal container closes the modal. Download brochure button opens the pdf in a new tab.
+  > - Modal form: submit button is submiting the form.
+  > - Plans, Gallery: click on every photo opens the lightGallery showing the correct photo.
+  > - LightGallery: click on arrows/swipe left-right/mouse drag/mouse scroll navigates through photos. The **X** button and clicking anywhere outside the photo closes the lightGallery for both the plans and the gallery section.
+  > - Other Homes: every **view details** button opens the right house page in the same tab.
+  > - Footer: CTA button opens the modal form. Social media buttons open each the expected link on a new tab.
+  - Testing browser back/forward action
+  > Navigation: browser back and forward and mobile back tap acts as expected throughout. Although, when modal or lightGallery are opened, the back click/tap targets the url and it doesn't toggle/close the modal. In order to function like this, it requires further Javascript coding. This is left to be implemented.
+
+
+- ### Testing compatibility
+- ### Testing accessibility
+- ### Testing performance
+- ### Validation
+- ### Further testing
 
 ## Deployment
 - ### GitHub Pages
