@@ -125,30 +125,40 @@ Website's features are presented in an importance order.
 - ### Navigation bar
     Allows users to navigate through the page. As the website is mainly a single landing page, the navigation will be visible all the time.
 - ### Full width Call To Action (CTA)
-    Allows users to understand the page purpose in the first look. Attracts users by giving on-point bite-size information. Allow business to acommplish the main goal by providing users with the viewing posibility.
+    Allows users to understand the page purpose in the first look. Attracts users by giving on-point bite-size information. Allow business to acommplish the main goal by providing users with the viewing posibility. This is only showed on 80% of the screen height, the remaining 20% are left visible on purpose to let users know there is more content and to invite them to scroll through it. On the bottom of the CTA is an animated arrow inspired by the social networks stories which invites users to scroll down/swip up. This arrow is also clickabe and will scroll down when clicked, bringing user to the **Features** section.
 - ### Book a Viewing Modal Form
     Allows interested users to book a viewing by having them fill the provided form.
 - ### Housing Estate's features section
-    Presents users the site's main offered amenities ordered by importance.
+    Allow users to learn the main features of the presented product. These are ordered by importance. This also allows users to download the full pdf brochure by clicking the download button under the title.
 - ### A list of the 3 house models
-    A brief presentation of the 3 houses with main photo, few imporant features and a button for more details.
+    Allows users to find the 3 house types and they're main photos, few imporant features and a button for more details. This button brings the user to the house's own details page.
 - ### Details page for each house
-    Interested users can find additional information for each of the 3 presented houses. This pages have the following features ordered by importance:
-  - #### Main photo and attractive description
+    Allows interested users to find additional information for each of the 3 presented houses by visiting they're unique page. This pages have the following features ordered by importance:
+  - #### Presentation
+    This section present the house main photo, the most important features and 2 large buttons:
+    - Book a viewing
+    - Download House Brochure
   - #### A gallery of house plans
   - #### Full technical specification list
   - #### A gallery of photos
-  - #### A button to go back to the "Homes" section of the landing page
-- ### Estate's layout and bird's eye view
-    A photo representing the layout of the site and a "see from above" photo of the finished product.
+  - #### A list of the other 2 houses for quick access.
+- ### Site section
+    Allows users to find more details about the housing estate by presenting these subsections:
+    - Site Map with a brief location description.
+    - Site layout with legend.
+    - Travel times.
+    - General technical specifications.
 - ### A photo gallery
-    A gallery of photos representing the houses, amenitites and the POI (points of interest) in and around the site. 
+    Allows users to visually understand more about the presented product. 
 - ### Contact section
     Gives users information about the contact details of the site's developer, estate agent and solicitor. Provides a contact form for any queries.
 - ### Footer
-    A footer section containing the business name and logo, another smaller callout button and social links.
+    Reminds users to book a viewing if interested by clicking the modal toggle button. Allows users to find more information on social networks by clicking the social icons.
 - ### Accessibility
-    Images are provided with descriptive text.
+    Images are provided with descriptive text. The website is optimised for screen readers and allows users with impaired vision to zoom at any point.
+- ### Features left to implement
+    - 360 house viewing.
+    - close modal and lightGallery with browser/device back button.
 
 ## Technologies used
 - Workspace
