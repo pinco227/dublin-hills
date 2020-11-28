@@ -284,9 +284,22 @@ Website's features are presented in an importance order.
     > ### Browser test
     > The website was tested on Google Chrome, Firefox, Safari, Edge, Internet Explorer. Browsers versions were all up to date. Further testing was done using [BrowserLing](https://www.browserling.com/) and the website was tested for android 7 native browser. Results were consistent. Conclusion: the website is browser-cross compatible.
 
+  #### Landing page Lighthouse result
+  ![LightHouse Landing Page Results](https://github.com/pinco227/dublin-hills/blob/main/docs/landing-lighthouse.png)
+  #### House details page Lighthouse result
+  ![LightHouse Landing Page Results](https://github.com/pinco227/dublin-hills/blob/main/docs/house-lighthouse.png)
 - ### Testing performance
-- ### Validation
+  > ### Landing page
+  > Performance has been tested using chrome lighthouse tool. The results are slightly different every time due to device performance and value estimation. The performance test results are satisfying as the landing page is heavy loaded with content, especially images and the hero video. See further details below...
+  > ![LightHouse Landing Page Performance](https://github.com/pinco227/dublin-hills/blob/main/docs/landing-perf.png)
+
+  > ### House details page
+  > On these pages the performance test values are higher then the landing page as these pages are no so heavy on content (less images and no video). See further details below...
+  > ![LightHouse House Page Performance](https://github.com/pinco227/dublin-hills/blob/main/docs/house-lighthouse-perf.png)
+
 - ### Testing accessibility
+  > The accessibility was tested throughout the site using chrome lighthouse and [a11y contast cecker](https://color.a11y.com/Contrast/). The result are satisfying in both cases. When contrast was checked wit a11y tool, there were 3 issues displayed on the landing page. The first two issues are for the hero headings, as they are on an absolute position container overlayed on top of the video, the contrast checker tool cannot evaluate correctly. The third issue is with the Developer card from the contact section of the landing page and this has been a design choice and can be ignored. No contrast issues found on the house details page.
+- ### Validation
 - ### Further testing
 
 ## Deployment
