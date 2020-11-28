@@ -470,7 +470,7 @@ section {
 }
 
 .btn-house {
-    background-color: #B8873A;
+    background-color: #7E6235;
     border-color: #7E6235;
     box-shadow: 2px 2px 3px #7E6235;
     text-transform: uppercase;
@@ -479,7 +479,7 @@ section {
 }
 
 .btn-house:hover, .btn-house:active, .btn-house:focus {
-    background-color: #7E6235;
+    background-color: #B8873A;
     border-color: #7E6235;
     box-shadow: 3px 3px 7px #7E6235;
     color: #fff;
