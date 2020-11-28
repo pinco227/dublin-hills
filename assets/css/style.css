@@ -729,6 +729,10 @@ section {
     border-top-right-radius: calc(.25rem - 1px);
 }
 
+.contact-card .card-title {
+    font-size: 1.25rem;
+}
+
 .btn-contact {
     background-color: #3C5830;
     border-color: #2a3d21;
@@ -883,6 +887,10 @@ section {
         height: 150px;
     }
 
+    #houses-gallery .house-gallery-img-container {
+        height: 150px;
+    }
+
     /* --------- CONTACT */
     .contact-card .card-body {
         padding: 0.75rem;
@@ -903,6 +911,10 @@ section {
 
     /* --------- GALLERY */
     #site-gallery .site-gallery-img-container {
+        height: 120px;
+    }
+
+    #houses-gallery .house-gallery-img-container {
         height: 120px;
     }
 
