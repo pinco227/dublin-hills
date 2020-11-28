@@ -872,6 +872,11 @@ section {
         font-size: 110%;
     }
 
+    /* --------- GALLERY */
+    #site-gallery .site-gallery-img-container {
+        height: 150px;
+    }
+
     /* --------- CONTACT */
     .contact-card .card-body {
         padding: 0.75rem;
@@ -888,6 +893,11 @@ section {
     }
     .navbar-toggler {
         font-size: 1.5rem;
+    }
+
+    /* --------- GALLERY */
+    #site-gallery .site-gallery-img-container {
+        height: 120px;
     }
 
     /* --------- CALLOUT */
