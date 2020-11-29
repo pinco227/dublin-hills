@@ -176,6 +176,7 @@ Website's features are presented in an importance order.
   * [Photopea](https://www.photopea.com/) online photo editor tool for creating the BER rating labels and for editing the site plan and the site entrance sign.
   * [Canva](https://www.canva.com/tools/logo-maker-q1/) for creating the 3 contact card logos.
   * [Adobe Photoshop Express](https://photoshop.adobe.com/resize) for quick resizing images for improving performance.
+  * [ConvertIco](https://convertico.com/) for converting logo from .png to .ico .
 - Other
   * [Colormind.io](http://colormind.io/bootstrap/) as a tool for color palette testing.
   * [BrowserLing](https://www.browserling.com/) for cross-browser testing.
@@ -257,11 +258,12 @@ Website's features are presented in an importance order.
 ## Credits
 - ### Content
   - [HSQ.ie](http://www.hsq.ie/) as a general content inspiration.
-  - [Abbotfield.ie](http://www.abbottfield.ie/) for site and house specifications, for description on site section, for house plans and for lugmore house photos.
-  - [OldtownWalk.ie](https://www.oldtownwalk.ie/) for three rock and montpelier houses photos and site entrance photo.
-  - [MeadowBankSwords.ie](http://meadowbankswords.ie/) for site plan.
+  - [Abbotfield.ie](http://www.abbottfield.ie/) for site and house specifications and for description on site section.
 - ### Media
-  - [ConvertIco](https://convertico.com/) for converting logo from .png to .ico .
+  - [Gustavo Fring](https://www.pexels.com/@gustavo-fring?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels) for landing page's hero [video](https://www.pexels.com/photo/a-mother-and-daughter-bonding-time-in-a-park-4265250/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels).
+  - [MeadowBankSwords.ie](http://meadowbankswords.ie/) for site plan.
+  - [OldtownWalk.ie](https://www.oldtownwalk.ie/) for three rock and montpelier houses photos and site entrance photo.
+  - [Abbotfield.ie](http://www.abbottfield.ie/) for house plans and for lugmore house photos.
 - ### Code
   - [CSS TRICKS](https://css-tricks.com/) as a general resource.
   - [Stack Overflow](https://stackoverflow.com/) as a general resource.
@@ -269,6 +271,7 @@ Website's features are presented in an importance order.
   - [Sam Dutton (Google dev)](https://developers.google.com/web/updates/2016/07/autoplay) for video attributes that makes autoplay available on android devices: ```autoplay loop muted```.
   - [Dudley Storey](http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video) for video positioning [issue](#encountered-issues).
   - [Spigot Design](https://spigotdesign.com/smooth-scroll-offset-anchor-links-with-css/) for anchor offsetting [issue](#encountered-issues).
+  - [StackOverflow user: Stickers](https://stackoverflow.com/users/483779/stickers) for up and down arrow animation [SOLUTION](https://stackoverflow.com/questions/35990445/how-to-move-a-div-up-and-down-infinitely-in-css3) used in landing page hero.
 
 ## Aknowledgements
   - **My Mentor**: Nishant Kumar for continuous helpful feedback.
