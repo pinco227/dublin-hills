@@ -236,6 +236,9 @@ Website's features are presented in an importance order.
     2. click on desired link.
     3. click again on "hamburger" button to toggle the menu that covers the top of the section.
     - **FIXED** by adding this code to the ```.nav-item``` list element: ``` data-toggle="collapse" data-target="#menu"```. It was added to the list element and not to the anchor, otherwise it would disable the anchor funcionality.
+  - when validated the code through [W3C Validator](https://validator.w3.org/), **2 issues** were found on each page.
+    - **FIXED** by taking the ```h1``` out of its container and moved as a direct child of the ```<article>```. For the landing page, the ```h1``` is part of the CTA so for fixing this issue, the ```<section>``` element has been removed from CTA so that the ```h1``` is a child of the ```<article>```. For house pages, moving up the ```h1``` has left the first section with no header. This has been fixed by adding a ```h2``` header to the presentation section. See details below...  
+    ![W3C Validator Results](https://github.com/pinco227/dublin-hills/blob/main/docs/w3c-issues.png)  
 - ### Testing user stories
   - #### As a user I need:
     - to easily understand the purpose of the page.
@@ -324,7 +327,7 @@ Website's features are presented in an importance order.
   > The accessibility was tested throughout the site using chrome lighthouse and [a11y contast cecker](https://color.a11y.com/Contrast/). The result are satisfying in both cases. When contrast was checked wit a11y tool, there were 3 issues displayed on the landing page. The first two issues are for the hero headings, as they are on an absolute position container overlayed on top of the video, the contrast checker tool cannot evaluate correctly. The third issue is with the Developer card from the contact section of the landing page and this has been a design choice and can be ignored. No contrast issues found on the house details page.
 - ### Code Validation
   > ### HTML
-  > Html was tested and validated with [W3C Validator](https://validator.w3.org/). The results are satisfying on all pages. Two warnings are present in all pages about the use of headings throughout the page. These are no reason to worry and can be ignored as the headings are in place starting from top with ```h1``` and with every section with ```h2```.
+  > Html was tested and validated with [W3C Validator](https://validator.w3.org/). **No errors or issues**. The results are satisfying on all pages. 
 
   > ### CSS
   > CSS was validated with [W3C CSS](https://jigsaw.w3.org/css-validator/) by direct input. The results came with no error and only warnings about the vendor prefixes, which can be ignored.
