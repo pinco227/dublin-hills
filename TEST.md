@@ -10,7 +10,7 @@
 - [Code Validation](#code-validation)
 - [Further Testing](#further-testing)
 ## Encountered Issues
-    Issues found during the building process:
+### Issues found during the building process:
   - video background on callout section would not autoplay on mobile, especially on android devices.
       - **FIXED** by adding these attributes to ```autoplay loop muted``` acording to **[this article](https://developers.google.com/web/updates/2016/07/autoplay)** of **Sam Dutton** and **[this repo](https://github.com/googlechrome/samples/tree/gh-pages/muted-autoplay)** of **Google Chrome**.
       - for iOS10 devices I have used the ```playsinline``` video attribute.
@@ -79,7 +79,7 @@
     > On the site section, one of the subsections is the **travel times**. There are listed few of the main destinations and the required time to travel to each.
     - to find information about career opportunities around the area.
     > One of the features is the **Location** which offers a great career opportunity, businesses and industries being at a short travel distance from the living area.
-## Testing functionality
+## Testing Functionality
    > ### Checking for broken links
    > #### Landing Page
    > Starting from top to bottom, left to right, click on every button, link, toggle to check for expected action.
