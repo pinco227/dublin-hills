@@ -5,9 +5,12 @@
 * Browsers: last 4 version
 */
 
+/* Google Fonts import: */
+/* EB Garamond, weights: 400-700, general font serif */
+/* Merienda, weights 400,700, big headings h1 and h2 font serif*/
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merienda:wght@400;700&display=swap');
 
-/*  COLORS
+/*  UX Color Palette
 Light shades:       #EEE8D1     ATHS SPECIAL
 Lighter shades:     #F4F0DE     PARCHMENT
 Light accent:       #A0A074     GURKHA
@@ -18,13 +21,13 @@ Dark shades:        #7E6235     POTTERS CLAY
 Darker shades:      #493722     IROKO
 */
 
-/*------------------------------------------ GENERAL */
+/*------------------------------------------ DOCUMENT */
 html {
     scroll-behavior: smooth;
 }
 
 /* CREDIT: https://spigotdesign.com/smooth-scroll-offset-anchor-links-with-css/
--------- for offseting the anchor targets */
+* for offseting the anchor targets */
 :target:before {
     content: "";
     display: block;
@@ -45,6 +48,13 @@ body {
     color: #3C5830;
 }
 
+section {
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/*------------------------------------------ LINKS */
 a {
     font-weight: bold;
     color: #B8873A;
@@ -57,15 +67,10 @@ a:hover, a:focus, a:active {
     outline: none;
 }
 
+/*------------------------------------------ HEADINGS */
 h1,h2 {
     font-family: 'Merienda', serif;
     color: #3C5830;
-}
-
-section {
-    margin: 0;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
 }
 
 .section-heading {
@@ -88,6 +93,7 @@ section {
     margin-bottom: 2rem;
 }
 
+/*------------------------------------------ FORMS */
 .form-control:focus {
     border-color: #3C5830;
     outline: 0;
@@ -141,7 +147,7 @@ section {
 }
 
 .bg-color-error {
-    background-color: #CECEB1;
+    background-color: #F4F0DE;
 }
 
 .navbar-brand-color {
@@ -353,7 +359,9 @@ section {
     color: #F4F0DE;
 }
 
-/* CREDIT: https://stackoverflow.com/questions/35990445/how-to-move-a-div-up-and-down-infinitely-in-css3 */
+/* CREDIT:
+* https://stackoverflow.com/questions/35990445/how-to-move-a-div-up-and-down-infinitely-in-css3
+* for up and down animation */
 @-webkit-keyframes MoveUpDown {
   0%, 100% {
     bottom: 0;
@@ -375,8 +383,9 @@ section {
     font-size: 2rem;
 }
 
-/* CREDIT: http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video) for video positioning [issue](#encountered-issues
------------ for center positioning */
+/* CREDIT: 
+* http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video
+* for center positioning */
 .cta-video { 
     position: absolute;
     top: 50%;
@@ -585,6 +594,9 @@ section {
     border: 2px solid #A0A074;  
 }
 
+/* CREDIT: 
+* http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video
+* for center positioning an absolute object */
 #houses-gallery .house-gallery-img-container img {
     position: absolute;
     top: 50%;
@@ -616,9 +628,7 @@ section {
 
 #map {
   height: 400px;
-  /* The height is 400 pixels */
   width: 100%;
-  /* The width is the width of the web page */
 }
 
 .spec-name {
@@ -720,6 +730,9 @@ section {
     border: 2px solid #EEE8D1;
 }
 
+/* CREDIT: 
+* http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video
+* for center positioning an absolute object */
 #site-gallery .site-gallery-img-container img {
     position: absolute;
     top: 50%;
@@ -887,6 +900,7 @@ section {
 }
 
 /*------------------------------------------ MEDIA QUERIES */
+/* Large Screen */
 @media(max-width:991px) {
     /* --------- FEATURES */
     .features-image {
@@ -897,6 +911,7 @@ section {
     }
 }
 
+/* Medium Screen */
 @media(max-width:767px) {
     /* --------- FEATURES */
     .features-right .feature-body {
@@ -944,6 +959,7 @@ section {
     }
 }
 
+/* Small screen */
 @media(max-width:576px) {
     /* --------- CALLOUT */
     .cta-heading {
@@ -968,6 +984,7 @@ section {
     }
 }
 
+/* XS screen */
 @media(max-width:324px), (max-height: 590px) {
     /* --------- NAVBAR */
     .navbar {
@@ -1008,6 +1025,7 @@ section {
     }
 }
 
+/* XS Screen Landscape */
 @media (orientation: landscape) and (max-height: 430px) {
     /* --------- CALLOUT */
     .cta-container {
@@ -1024,6 +1042,7 @@ section {
     }
 }
 
+/* Tiny Screen Landscape */
 @media (orientation: landscape) and (max-height: 300px) {
     .cta-scroll {
         display: none;

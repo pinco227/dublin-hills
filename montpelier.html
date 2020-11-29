@@ -9,14 +9,18 @@
     <meta name="Description" content="4 bedroom family home with great location and many features" />
     <title>Montpelier House of Dublin Hills</title>
 
+    <!-- External Remote Style Libraries -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.10.0/css/lightgallery.min.css">
+    <!-- External local Style -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- FavIcon -->
     <link href="assets/icons/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 </head>
 
 <body>
+    <!-- Header -->
     <header>
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg fixed-top bg-color-navbar">
@@ -54,7 +58,9 @@
             </div>
         </nav>
     </header>
+    <!-- Content body -->
     <article>
+        <!-- Article title -->
         <h1 class="section-heading house-title-heading-color">Montpelier</h1>
         <!-- House Presentation -->
         <section id="house-presentation" class="bg-color-presentation">
@@ -374,6 +380,7 @@
                             <div class="card-body">
                                 <h3 class="card-title text-center">Three Rock</h3>
                             </div>
+                            <!-- Photo Credit: https://www.oldtownwalk.ie/ -->
                             <img src="assets/images/three-rock/three-rock-main_550.jpg" class="card-img-top"
                                 alt="Three Rock House">
                             <ul class="list-group list-group-flush">
@@ -394,6 +401,7 @@
                             <div class="card-body">
                                 <h3 class="card-title text-center">Lugmore</h3>
                             </div>
+                            <!-- Photo Credit: http://www.abbottfield.ie/ -->
                             <img src="assets/images/lugmore/lugmore-main_550.jpg" class="card-img-top"
                                 alt="Lugmore House">
                             <ul class="list-group list-group-flush">
@@ -541,16 +549,20 @@
         </div>
     </div>
 
+    <!-- External JS Libraries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.10.0/js/lightgallery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"
         defer></script>
+    <!-- Internal JS scripts -->
     <script>
+        // Initialize the plans gallery
         $('#plans-gallery').lightGallery({
             selector: '.item'
         });
+        // Initialize the house gallery
         $('#houses-gallery').lightGallery({
             selector: '.item'
         });
